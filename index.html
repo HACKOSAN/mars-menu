@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mars Coffee House | Erbil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --mars-navy: #0A192F; --mars-wood: #8B5E3C; }
+        html { scroll-behavior: smooth; }
+        body { background-color: var(--mars-navy); color: white; font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+        .font-serif-mars { font-family: 'Playfair Display', serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        /* Adjusted for the sticky header height */
+        .category-tab { scroll-margin-top: 100px; }
+        .item-row:last-child { border-bottom: none; }
+    </style>
+</head>
+<body class="pb-20">
+
+    <header class="pt-10 pb-6 text-center">
+        <h1 class="text-4xl font-serif-mars lowercase tracking-tighter mb-1">mars</h1>
+        <p class="text-[10px] uppercase tracking-[0.3em] text-[#8B5E3C] font-bold">Coffee House • Erbil Branch</p>
+    </header>
+
+    <nav class="sticky top-0 z-50 bg-[#0A192F]/95 backdrop-blur-md border-b border-white/10">
+        <div class="flex space-x-8 overflow-x-auto no-scrollbar px-6 py-4 text-[11px] uppercase tracking-widest font-bold text-gray-400">
+            <a href="#coffee" class="hover:text-white transition-colors whitespace-nowrap">Coffee</a>
+            <a href="#cold" class="hover:text-white transition-colors whitespace-nowrap">Cold Drinks</a>
+            <a href="#shakes" class="hover:text-white transition-colors whitespace-nowrap">Milkshakes</a>
+            <a href="#smoothies" class="hover:text-white transition-colors whitespace-nowrap">Smoothies</a>
+        </div>
+    </nav>
+
+    <main class="max-w-md mx-auto px-6 mt-10 space-y-20">
+
+        <section id="coffee" class="category-tab">
+            <h2 class="text-2xl font-serif-mars mb-8 border-l-2 border-[#8B5E3C] pl-4">Coffee</h2>
+            <div class="space-y-8">
+                
+                <div class="item-row flex items-center space-x-4 border-b border-white/5 pb-4">
+                    <img src="https://via.placeholder.com/60" alt="Latte" class="w-14 h-14 rounded-full object-cover bg-white/5">
+                    <div class="flex-1">
+                        <div class="flex justify-between items-baseline">
+                            <span class="font-medium text-lg">Latte</span>
+                            <span class="text-[#8B5E3C] font-semibold tracking-tighter">2,500</span>
+                        </div>
+                        <p class="text-[10px] text-gray-500 uppercase tracking-tighter italic">Double Shot • 12oz</p>
+                    </div>
+                </div>
+
+                <div class="item-row flex items-center space-x-4 border-b border-white/5 pb-4">
+                    <div class="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center text-[10px] text-gray-600 font-bold uppercase tracking-tighter">Mars</div>
+                    <div class="flex-1">
+                        <div class="flex justify-between items-baseline">
+                            <span class="font-medium text-lg">Americano</span>
+                            <span class="text-[#8B5E3C] font-semibold tracking-tighter">2,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-row flex items-center space-x-4 border-b border-white/5 pb-4">
+                    <img src="https://via.placeholder.com/60" alt="Lotus" class="w-14 h-14 rounded-full object-cover bg-white/5">
+                    <div class="flex-1">
+                        <div class="flex justify-between items-baseline">
+                            <span class="font-medium text-lg">Hot Lotus</span>
+                            <div class="text-right">
+                                <span class="text-[#8B5E3C] font-semibold block">4,000</span>
+                                <span class="text-[8px] text-gray-500 uppercase tracking-tighter">Large Cup</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+
+        <section id="cold" class="category-tab">
+            <h2 class="text-2xl font-serif-mars mb-8 border-l-2 border-[#8B5E3C] pl-4">Cold Drinks</h2>
+            <div class="space-y-6">
+                 <div class="flex justify-between items-end border-b border-white/5 pb-2">
+                     <span>Ice Latte</span>
+                     <span class="text-[#8B5E3C] font-semibold">2,500</span>
+                 </div>
+                 </div>
+        </section>
+
+        <section id="shakes" class="category-tab">
+            <h2 class="text-2xl font-serif-mars mb-2 border-l-2 border-[#8B5E3C] pl-4">Milkshakes</h2>
+            <p class="text-[10px] text-gray-500 uppercase tracking-[0.2em] mb-6">All Shakes • 4,000 IQD</p>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-white/5 p-4 rounded-xl border border-white/5 text-center transition-active active:bg-white/10">
+                    <img src="https://via.placeholder.com/100" class="w-full aspect-square rounded-lg mb-3 object-cover opacity-80">
+                    <span class="text-sm font-medium">Rashi</span>
+                </div>
+                <div class="bg-white/5 p-4 rounded-xl border border-white/5 text-center">
+                    <img src="https://via.placeholder.com/100" class="w-full aspect-square rounded-lg mb-3 object-cover opacity-80">
+                    <span class="text-sm font-medium">Pistachio</span>
+                </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="mt-24 pb-12 text-center px-10">
+        <div class="h-px w-20 bg-[#8B5E3C] mx-auto mb-6"></div>
+        <p class="text-[9px] uppercase tracking-[0.4em] text-gray-600 mb-2">Mars Coffee House Experience</p>
+        <p class="text-[8px] text-gray-700">Scan. Order. Repeat.</p>
+    </footer>
+
+</body>
+</html>
