@@ -2,49 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Mars Coffee House | Erbil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Coffee House</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
 </head>
-<body class="dark-mode">
-
-    <header class="relative pt-12 pb-6 px-8 text-center">
-        <div class="inline-block">
-            <h1 class="text-5xl font-serif-mars lowercase tracking-tighter mb-1 title-color">mars</h1>
-            <p class="text-[10px] uppercase tracking-[0.4em] accent-yellow font-black">Erbil Branch</p>
+<body class="p-6 md:p-12">
+    <header class="mb-20 flex justify-between items-start">
+        <div>
+            <h1 class="font-crimson text-6xl lowercase tracking-tighter leading-none text-black">mars</h1>
+            <p class="text-[10px] font-black uppercase tracking-[0.3em] opacity-30 mt-2 ml-1 text-black">Coffee House</p>
         </div>
-        <button onclick="toggleTheme()" class="absolute right-6 top-14 p-2 border rounded-full theme-btn">
-            <span id="theme-icon">☀️</span>
-        </button>
+        <div class="border-2 border-[#203467] text-[#203467] text-[9px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest">Kirkuk</div>
     </header>
 
-    <nav class="sticky top-0 z-50 nav-bg border-b">
-        <div id="nav-scroll" class="flex space-x-8 overflow-x-auto no-scrollbar px-6 py-5 text-[11px] uppercase tracking-tighter font-black">
-            <a href="#coffee" class="nav-link whitespace-nowrap active">Coffee</a>
-            <a href="#hot-milk" class="nav-link whitespace-nowrap">Hot w/ Milk</a>
-            <a href="#cold-coffee" class="nav-link whitespace-nowrap">Cold Coffee</a>
-            <a href="#smoothie" class="nav-link whitespace-nowrap">Smoothies</a>
-            <a href="#shakes" class="nav-link whitespace-nowrap">Milkshakes</a>
-            <a href="#bakery" class="nav-link whitespace-nowrap">Bakery</a>
-            <a href="#cookies" class="nav-link whitespace-nowrap">Cookies</a>
-        </div>
-    </nav>
+    <main class="max-w-xl mx-auto">
+        <h2 class="text-4xl font-black mb-10 tracking-tight text-black">Menu</h2>
+        
+        <a href="menu/drinks/index.html" class="mars-card-list group">
+            <div class="mars-circle-btn group-hover:scale-105 transition-transform">Drinks</div>
+            <h3 class="text-3xl font-bold">Drinks →</h3>
+        </a>
 
-    <main id="menu-container" class="max-w-md mx-auto px-6 mt-10 space-y-16">
-        </main>
-
-    <footer class="mt-32 pb-16 text-center px-10">
-        <div class="h-1 w-12 bg-yellow mx-auto mb-8"></div>
-        <p class="text-[10px] uppercase tracking-[0.4em] opacity-40 mb-3 font-bold footer-text">
-            Digital Experience by Entrotech
-        </p>
-        <p class="text-[9px] text-gray-500 tracking-wider">
-            Official Menu v1.5 • © 2025 Entrotech Systems. All Rights Reserved.
-        </p>
-    </footer>
-
-    <script src="script.js"></script>
+        <a href="menu/food/index.html" class="mars-card-list group">
+            <div class="mars-circle-btn group-hover:scale-105 transition-transform">Food</div>
+            <h3 class="text-3xl font-bold">Food →</h3>
+        </a>
+    </main>
 </body>
 </html>
