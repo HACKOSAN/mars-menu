@@ -11,6 +11,9 @@ const ProductModal = ({ product, onClose }) => {
     ? Object.keys(product.matrix) 
     : (hasSizes ? Object.keys(product.sizes) : (hasVariants ? Object.keys(product.variants) : null));
   
+  // Check if this is a single-size item (like Turkish Coffee with "One")
+  const isSingleSize = hasMatrix && keys && keys.length === 1 && keys[0] === 'One';
+  
   const [selectedKey, setSelectedKey] = useState(keys ? keys[0] : 'Default');
 
   // Get available flavors for the selected size (matrix items only)
@@ -45,7 +48,6 @@ const ProductModal = ({ product, onClose }) => {
       price = data.price;
       nutrition = data.nutrition || {};
     } else if (sizeData) {
-      // Fallback to first available flavor
       const firstFlavor = Object.keys(sizeData)[0];
       const data = sizeData[firstFlavor];
       price = data.price;
@@ -81,10 +83,10 @@ const ProductModal = ({ product, onClose }) => {
           )}
           
           <div className="selection-grid-container">
-            {/* SIZE/VARIANT SELECTOR */}
-            {keys && keys.length > 0 && (
+            {/* SIZE SELECTOR - Hide if single size "One" */}
+            {keys && keys.length > 0 && !isSingleSize && (
               <div className="selection-column">
-                <p className="selection-label">{hasVariants ? 'Select Type' : 'Select Size'}</p>
+                <p className="selection-label">Select Size</p>
                 <div className="size-selector-container-grid">
                   {keys.map(k => (
                     <button 
@@ -101,7 +103,7 @@ const ProductModal = ({ product, onClose }) => {
 
             {/* FLAVOR SELECTOR */}
             <div className="selection-column">
-              <p className="selection-label">Select Flavor</p>
+              <p className="selection-label">{isSingleSize ? 'Select Type' : 'Select Flavor'}</p>
               {currentFlavorKeys && currentFlavorKeys.length > 1 ? (
                 <select 
                   className="flavor-dropdown"

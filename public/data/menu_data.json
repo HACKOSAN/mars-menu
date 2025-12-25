@@ -99,37 +99,43 @@
           "id": "turkish-coffee",
           "name": "Turkish Coffee",
           "description": "Finely ground coffee brewed slowly for a strong flavor, rich body, and thick foam",
-          "variants": {
-            "Plain": 3500,
-            "Medium": 3500,
-            "Sweet": 3500
-          },
-          "nutrition": {
-            "Plain": {
-              "energy": "2 kcal",
-              "fat": "0.1 g",
-              "carbs": "0.3 g",
-              "fibre": "0.2 g",
-              "protein": "0.2 g",
-              "caffeine": "60.0 mg"
-            },
-            "Medium": {
-              "energy": "18 kcal",
-              "fat": "0.1 g",
-              "carbs": "4.2 g",
-              "sugar": "4.0 g",
-              "fibre": "0.2 g",
-              "protein": "0.2 g",
-              "caffeine": "60.0 mg"
-            },
-            "Sweet": {
-              "energy": "36 kcal",
-              "fat": "0.1 g",
-              "carbs": "8.4 g",
-              "sugar": "8.0 g",
-              "fibre": "0.2 g",
-              "protein": "0.2 g",
-              "caffeine": "60.0 mg"
+          "matrix": {
+            "One": {
+              "Plain": {
+                "price": 3500,
+                "nutrition": {
+                  "energy": "2 kcal",
+                  "fat": "0.1 g",
+                  "carbs": "0.3 g",
+                  "fibre": "0.2 g",
+                  "protein": "0.2 g",
+                  "caffeine": "60.0 mg"
+                }
+              },
+              "Medium": {
+                "price": 3500,
+                "nutrition": {
+                  "energy": "18 kcal",
+                  "fat": "0.1 g",
+                  "carbs": "4.2 g",
+                  "sugar": "4.0 g",
+                  "fibre": "0.2 g",
+                  "protein": "0.2 g",
+                  "caffeine": "60.0 mg"
+                }
+              },
+              "Sweet": {
+                "price": 3500,
+                "nutrition": {
+                  "energy": "36 kcal",
+                  "fat": "0.1 g",
+                  "carbs": "8.4 g",
+                  "sugar": "8.0 g",
+                  "fibre": "0.2 g",
+                  "protein": "0.2 g",
+                  "caffeine": "60.0 mg"
+                }
+              }
             }
           }
         },
@@ -137,37 +143,43 @@
           "id": "turkish-coffee-double",
           "name": "Turkish Coffee Double",
           "description": "A stronger, richer version of Turkish coffee made with double coffee for an intense flavor and full body",
-          "variants": {
-            "Plain": 5000,
-            "Medium": 5000,
-            "Sweet": 5000
-          },
-          "nutrition": {
-            "Plain": {
-              "energy": "4 kcal",
-              "fat": "0.2 g",
-              "carbs": "0.6 g",
-              "fibre": "0.4 g",
-              "protein": "0.4 g",
-              "caffeine": "120.0 mg"
-            },
-            "Medium": {
-              "energy": "36 kcal",
-              "fat": "0.2 g",
-              "carbs": "4.6 g",
-              "sugar": "4.0 g",
-              "fibre": "0.4 g",
-              "protein": "0.4 g",
-              "caffeine": "120.0 mg"
-            },
-            "Sweet": {
-              "energy": "72 kcal",
-              "fat": "0.2 g",
-              "carbs": "16.8 g",
-              "sugar": "16.0 g",
-              "fibre": "0.4 g",
-              "protein": "0.4 g",
-              "caffeine": "120.0 mg"
+          "matrix": {
+            "One": {
+              "Plain": {
+                "price": 5000,
+                "nutrition": {
+                  "energy": "4 kcal",
+                  "fat": "0.2 g",
+                  "carbs": "0.6 g",
+                  "fibre": "0.4 g",
+                  "protein": "0.4 g",
+                  "caffeine": "120.0 mg"
+                }
+              },
+              "Medium": {
+                "price": 5000,
+                "nutrition": {
+                  "energy": "36 kcal",
+                  "fat": "0.2 g",
+                  "carbs": "4.6 g",
+                  "sugar": "4.0 g",
+                  "fibre": "0.4 g",
+                  "protein": "0.4 g",
+                  "caffeine": "120.0 mg"
+                }
+              },
+              "Sweet": {
+                "price": 5000,
+                "nutrition": {
+                  "energy": "72 kcal",
+                  "fat": "0.2 g",
+                  "carbs": "16.8 g",
+                  "sugar": "16.0 g",
+                  "fibre": "0.4 g",
+                  "protein": "0.4 g",
+                  "caffeine": "120.0 mg"
+                }
+              }
             }
           }
         }
