@@ -1,0 +1,2280 @@
+{
+  "store": "Mars Coffee House",
+  "categories": [
+    {
+      "name": "Hot Coffee",
+      "items": [
+        {
+          "id": "americano",
+          "name": "Americano",
+          "description": "Espresso shots are topped with hot water to produce a light layer of crema",
+          "sizes": {
+            "S": 4500,
+            "M": 5000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "4 kcal",
+              "fat": "0.1 g",
+              "carbs": "0.4 g",
+              "fibre": "0.1 g",
+              "protein": "0.2 g",
+              "caffeine": "44.5 mg"
+            },
+            "M": {
+              "energy": "7 kcal",
+              "fat": "0.1 g",
+              "carbs": "0.9 g",
+              "sugar": "0.1 g",
+              "fibre": "0.3 g",
+              "protein": "0.4 g",
+              "caffeine": "89.1 mg"
+            }
+          }
+        },
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "description": "A shot of espresso with a rich flavour and caramel-like sweetness.",
+          "price": 3500,
+          "nutrition": {
+            "energy": "4 kcal",
+            "fat": "0.1 g",
+            "carbs": "0.5 g",
+            "fibre": "0.1 g",
+            "protein": "0.2 g",
+            "caffeine": "44.6 mg"
+          }
+        },
+        {
+          "id": "espresso-doppio",
+          "name": "Espresso Doppio",
+          "description": "A shot of espresso with a rich flavour and caramel-like sweetness.",
+          "price": 4500,
+          "nutrition": {
+            "energy": "7 kcal",
+            "fat": "0.1 g",
+            "carbs": "0.9 g",
+            "sugar": "0.1 g",
+            "fibre": "0.3 g",
+            "protein": "0.4 g",
+            "caffeine": "89.1 mg"
+          }
+        },
+        {
+          "id": "espresso-con-panna",
+          "name": "Espresso Con Panna",
+          "description": "A rich espresso topped with a smooth layer of whipped cream for a balanced, indulgent taste",
+          "price": 5000,
+          "nutrition": {
+            "energy": "45 kcal",
+            "fat": "4.5 g",
+            "sat_fat": "2.8 g",
+            "carbs": "0.8 g",
+            "sugar": "0.6 g",
+            "fibre": "0.1 g",
+            "protein": "0.5 g",
+            "salt": "0.03 g",
+            "caffeine": "44.6 mg"
+          }
+        },
+        {
+          "id": "macchiato",
+          "name": "Macchiato",
+          "description": "A caramelly-sweet shot of espresso marked with a small amount of foam",
+          "price": 4500,
+          "nutrition": {
+            "energy": "6 kcal",
+            "fat": "0.2 g",
+            "sat_fat": "0.1 g",
+            "carbs": "0.7 g",
+            "sugar": "0.3 g",
+            "fibre": "0.1 g",
+            "protein": "0.4 g",
+            "salt": "0.01 g",
+            "caffeine": "44.6 mg"
+          }
+        },
+        {
+          "id": "turkish-coffee",
+          "name": "Turkish Coffee",
+          "description": "Finely ground coffee brewed slowly for a strong flavor, rich body, and thick foam",
+          "variants": {
+            "Plain": 3500,
+            "Medium": 3500,
+            "Sweet": 3500
+          },
+          "nutrition": {
+            "Plain": {
+              "energy": "2 kcal",
+              "fat": "0.1 g",
+              "carbs": "0.3 g",
+              "fibre": "0.2 g",
+              "protein": "0.2 g",
+              "caffeine": "60.0 mg"
+            },
+            "Medium": {
+              "energy": "18 kcal",
+              "fat": "0.1 g",
+              "carbs": "4.2 g",
+              "sugar": "4.0 g",
+              "fibre": "0.2 g",
+              "protein": "0.2 g",
+              "caffeine": "60.0 mg"
+            },
+            "Sweet": {
+              "energy": "36 kcal",
+              "fat": "0.1 g",
+              "carbs": "8.4 g",
+              "sugar": "8.0 g",
+              "fibre": "0.2 g",
+              "protein": "0.2 g",
+              "caffeine": "60.0 mg"
+            }
+          }
+        },
+        {
+          "id": "turkish-coffee-double",
+          "name": "Turkish Coffee Double",
+          "description": "A stronger, richer version of Turkish coffee made with double coffee for an intense flavor and full body",
+          "variants": {
+            "Plain": 5000,
+            "Medium": 5000,
+            "Sweet": 5000
+          },
+          "nutrition": {
+            "Plain": {
+              "energy": "4 kcal",
+              "fat": "0.2 g",
+              "carbs": "0.6 g",
+              "fibre": "0.4 g",
+              "protein": "0.4 g",
+              "caffeine": "120.0 mg"
+            },
+            "Medium": {
+              "energy": "36 kcal",
+              "fat": "0.2 g",
+              "carbs": "4.6 g",
+              "sugar": "4.0 g",
+              "fibre": "0.4 g",
+              "protein": "0.4 g",
+              "caffeine": "120.0 mg"
+            },
+            "Sweet": {
+              "energy": "72 kcal",
+              "fat": "0.2 g",
+              "carbs": "16.8 g",
+              "sugar": "16.0 g",
+              "fibre": "0.4 g",
+              "protein": "0.4 g",
+              "caffeine": "120.0 mg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iced Coffee",
+      "items": [
+        {
+          "id": "iced-americano",
+          "name": "Iced Americano",
+          "description": "Espresso shots are topped with water to produce a light layer of crema, then served over ice. The result is this wonderfully rich cup with depth and nuance",
+          "sizes": {
+            "S": 4500,
+            "M": 5000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "4 kcal",
+              "fat": "0.05 g",
+              "carbs": "0.45 g",
+              "sugar": "0.05 g",
+              "fibre": "0.15 g",
+              "protein": "0.2 g",
+              "caffeine": "95.0 mg"
+            },
+            "M": {
+              "energy": "7 kcal",
+              "fat": "0.1 g",
+              "carbs": "0.9 g",
+              "sugar": "0.1 g",
+              "fibre": "0.3 g",
+              "protein": "0.4 g",
+              "caffeine": "133.6 mg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Specialty Coffee",
+      "items": [
+        {
+          "id": "cold-brew",
+          "name": "Cold Brew",
+          "description": "Slow-extracted for a naturally smooth profile, offering deep coffee notes with a clean, refreshing finish and a refined caffeine strength",
+          "price": 8000,
+          "nutrition": {
+            "energy": "4 kcal",
+            "carbs": "0.0 g",
+            "protein": "0.2 g",
+            "caffeine": "110.0 mg"
+          }
+        },
+        {
+          "id": "drip-coffee",
+          "name": "Drip Coffee",
+          "description": "Freshly brewed to deliver a clear, balanced cup, highlighting the coffee's aroma with a soft, comforting finish",
+          "sizes": {
+            "S": 4500,
+            "M": 5000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "4 kcal",
+              "carbs": "0.5 g",
+              "protein": "0.3 g",
+              "caffeine": "95.0 mg"
+            },
+            "M": {
+              "energy": "6 kcal",
+              "carbs": "0.7 g",
+              "protein": "0.4 g",
+              "caffeine": "150.0 mg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coffee with Milk",
+      "items": [
+        {
+          "id": "classic-cappuccino",
+          "name": "Classic Cappuccino",
+          "description": "Dark, rich espresso combined with steamed milk, topped with a deep layer of foam.",
+          "matrix": {
+            "S": {
+              "Standard": {
+                "price": 4500,
+                "nutrition": {
+                  "energy": "110 kcal",
+                  "fat": "3.8 g",
+                  "sat_fat": "2.5 g",
+                  "carbs": "10.8 g",
+                  "sugar": "10.5 g",
+                  "fibre": "0.1 g",
+                  "protein": "7.9 g",
+                  "salt": "0.24 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Brownie": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "134 kcal",
+                  "fat": "3.6 g",
+                  "sat_fat": "2.3 g",
+                  "carbs": "18.0 g",
+                  "sugar": "17.5 g",
+                  "fibre": "0.1 g",
+                  "protein": "7.5 g",
+                  "salt": "0.22 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Caramel": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "134 kcal",
+                  "fat": "3.5 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "18.5 g",
+                  "sugar": "18.2 g",
+                  "fibre": "0.2 g",
+                  "protein": "7.3 g",
+                  "salt": "0.22 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Dark Chocolate": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "210 kcal",
+                  "fat": "5.0 g",
+                  "sat_fat": "3.2 g",
+                  "carbs": "30.7 g",
+                  "sugar": "28.8 g",
+                  "fibre": "4.4 g",
+                  "protein": "8.2 g",
+                  "salt": "0.17 g",
+                  "caffeine": "304.8 mg"
+                }
+              },
+              "Free Sugar": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "102 kcal",
+                  "fat": "3.5 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "10.2 g",
+                  "sugar": "9.7 g",
+                  "fibre": "0.1 g",
+                  "protein": "7.4 g",
+                  "salt": "0.24 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Hazelnut": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "132 kcal",
+                  "fat": "3.5 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "17.8 g",
+                  "sugar": "17.4 g",
+                  "fibre": "0.1 g",
+                  "protein": "7.2 g",
+                  "salt": "0.22 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Vanilla": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "134 kcal",
+                  "fat": "3.5 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "18.5 g",
+                  "sugar": "18.0 g",
+                  "fibre": "0.1 g",
+                  "protein": "7.2 g",
+                  "salt": "0.22 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "White Chocolate": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "195 kcal",
+                  "fat": "5.2 g",
+                  "sat_fat": "3.7 g",
+                  "carbs": "28.8 g",
+                  "sugar": "28.5 g",
+                  "fibre": "0.2 g",
+                  "protein": "8.1 g",
+                  "salt": "0.34 g",
+                  "caffeine": "275.6 mg"
+                }
+              }
+            },
+            "M": {
+              "Standard": {
+                "price": 5500,
+                "nutrition": {
+                  "energy": "137 kcal",
+                  "fat": "4.8 g",
+                  "sat_fat": "3.1 g",
+                  "carbs": "13.5 g",
+                  "sugar": "13.1 g",
+                  "fibre": "0.1 g",
+                  "protein": "9.9 g",
+                  "salt": "0.3 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Brownie": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "168 kcal",
+                  "fat": "4.5 g",
+                  "sat_fat": "2.9 g",
+                  "carbs": "22.5 g",
+                  "sugar": "21.9 g",
+                  "fibre": "0.1 g",
+                  "protein": "9.4 g",
+                  "salt": "0.28 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Caramel": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "168 kcal",
+                  "fat": "4.4 g",
+                  "sat_fat": "2.8 g",
+                  "carbs": "23.1 g",
+                  "sugar": "22.7 g",
+                  "fibre": "0.2 g",
+                  "protein": "9.1 g",
+                  "salt": "0.27 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Dark Chocolate": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "263 kcal",
+                  "fat": "6.3 g",
+                  "sat_fat": "4.0 g",
+                  "carbs": "38.4 g",
+                  "sugar": "36.0 g",
+                  "fibre": "5.5 g",
+                  "protein": "10.3 g",
+                  "salt": "0.21 g",
+                  "caffeine": "381.0 mg"
+                }
+              },
+              "Free Sugar": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "128 kcal",
+                  "fat": "4.4 g",
+                  "sat_fat": "2.8 g",
+                  "carbs": "12.8 g",
+                  "sugar": "12.1 g",
+                  "fibre": "0.1 g",
+                  "protein": "9.2 g",
+                  "salt": "0.3 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Hazelnut": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "165 kcal",
+                  "fat": "4.4 g",
+                  "sat_fat": "2.8 g",
+                  "carbs": "22.3 g",
+                  "sugar": "21.8 g",
+                  "fibre": "0.1 g",
+                  "protein": "9.0 g",
+                  "salt": "0.27 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Vanilla": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "167 kcal",
+                  "fat": "4.4 g",
+                  "sat_fat": "2.8 g",
+                  "carbs": "23.1 g",
+                  "sugar": "22.5 g",
+                  "fibre": "0.1 g",
+                  "protein": "9.0 g",
+                  "salt": "0.27 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "White Chocolate": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "244 kcal",
+                  "fat": "6.5 g",
+                  "sat_fat": "4.6 g",
+                  "carbs": "36.0 g",
+                  "sugar": "35.6 g",
+                  "fibre": "0.2 g",
+                  "protein": "10.1 g",
+                  "salt": "0.43 g",
+                  "caffeine": "344.5 mg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "cortado",
+          "name": "Cortado",
+          "description": "Two ristretto shots topped with warm, silky milk served in a 6oz cup that gives you the needed coffee kick for your day",
+          "price": 5500,
+          "nutrition": {
+            "energy": "53 kcal",
+            "fat": "2.6 g",
+            "sat_fat": "1.6 g",
+            "carbs": "4.6 g",
+            "sugar": "3.2 g",
+            "fibre": "0.1 g",
+            "protein": "2.9 g",
+            "salt": "0.08 g",
+            "caffeine": "115.5 mg"
+          }
+        },
+        {
+          "id": "flat-white",
+          "name": "Flat White",
+          "description": "Expertly steamed milk poured over two shots of espresso",
+          "price": 5500,
+          "nutrition": {
+            "energy": "76 kcal",
+            "fat": "4.0 g",
+            "sat_fat": "2.5 g",
+            "carbs": "5.8 g",
+            "sugar": "5.0 g",
+            "fibre": "0.3 g",
+            "protein": "4.1 g",
+            "salt": "0.11 g",
+            "caffeine": "389.1 mg"
+          }
+        },
+        {
+          "id": "latte-classic",
+          "name": "Latte Classic",
+          "description": "Our dark, rich espresso is balanced with steamed milk and topped with a light layer of foam. A perfect milk-forward warm up.",
+          "matrix": {
+            "S": {
+              "Standard": {
+                "price": 4500,
+                "nutrition": {
+                  "energy": "127 kcal",
+                  "fat": "4.5 g",
+                  "sat_fat": "2.9 g",
+                  "carbs": "12.5 g",
+                  "sugar": "12.2 g",
+                  "fibre": "0.1 g",
+                  "protein": "9.2 g",
+                  "salt": "0.28 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Brownie": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "135 kcal",
+                  "fat": "4.4 g",
+                  "sat_fat": "2.8 g",
+                  "carbs": "14.9 g",
+                  "sugar": "14.6 g",
+                  "fibre": "0.1 g",
+                  "protein": "9.0 g",
+                  "salt": "0.27 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Caramel": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "160 kcal",
+                  "fat": "4.0 g",
+                  "sat_fat": "2.6 g",
+                  "carbs": "22.7 g",
+                  "sugar": "22.3 g",
+                  "fibre": "0.2 g",
+                  "protein": "8.3 g",
+                  "salt": "0.25 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Cookies": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "141 kcal",
+                  "fat": "5.0 g",
+                  "sat_fat": "3.0 g",
+                  "carbs": "15.9 g",
+                  "sugar": "15.3 g",
+                  "fibre": "0.2 g",
+                  "protein": "8.7 g",
+                  "salt": "0.29 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Free Sugar": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "117 kcal",
+                  "fat": "4.0 g",
+                  "sat_fat": "2.6 g",
+                  "carbs": "11.8 g",
+                  "sugar": "11.0 g",
+                  "fibre": "0.1 g",
+                  "protein": "8.3 g",
+                  "salt": "0.28 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Hazelnut": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "157 kcal",
+                  "fat": "4.0 g",
+                  "sat_fat": "2.6 g",
+                  "carbs": "21.8 g",
+                  "sugar": "21.5 g",
+                  "fibre": "0.1 g",
+                  "protein": "8.2 g",
+                  "salt": "0.25 g",
+                  "caffeine": "275.6 mg"
+                }
+              },
+              "Vanilla": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "159 kcal",
+                  "fat": "4.0 g",
+                  "sat_fat": "2.6 g",
+                  "carbs": "22.7 g",
+                  "sugar": "22.2 g",
+                  "fibre": "0.1 g",
+                  "protein": "8.2 g",
+                  "salt": "0.25 g",
+                  "caffeine": "275.6 mg"
+                }
+              }
+            },
+            "M": {
+              "Standard": {
+                "price": 5500,
+                "nutrition": {
+                  "energy": "159 kcal",
+                  "fat": "5.6 g",
+                  "sat_fat": "3.6 g",
+                  "carbs": "15.6 g",
+                  "sugar": "15.2 g",
+                  "fibre": "0.1 g",
+                  "protein": "11.5 g",
+                  "salt": "0.35 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Brownie": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "169 kcal",
+                  "fat": "5.5 g",
+                  "sat_fat": "3.5 g",
+                  "carbs": "18.6 g",
+                  "sugar": "18.2 g",
+                  "fibre": "0.1 g",
+                  "protein": "11.3 g",
+                  "salt": "0.34 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Caramel": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "200 kcal",
+                  "fat": "5.0 g",
+                  "sat_fat": "3.2 g",
+                  "carbs": "28.4 g",
+                  "sugar": "27.9 g",
+                  "fibre": "0.2 g",
+                  "protein": "10.4 g",
+                  "salt": "0.31 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Cookies": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "176 kcal",
+                  "fat": "6.2 g",
+                  "sat_fat": "3.8 g",
+                  "carbs": "19.9 g",
+                  "sugar": "19.1 g",
+                  "fibre": "0.3 g",
+                  "protein": "10.9 g",
+                  "salt": "0.36 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Free Sugar": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "146 kcal",
+                  "fat": "5.0 g",
+                  "sat_fat": "3.2 g",
+                  "carbs": "14.7 g",
+                  "sugar": "13.8 g",
+                  "fibre": "0.1 g",
+                  "protein": "10.4 g",
+                  "salt": "0.35 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Hazelnut": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "196 kcal",
+                  "fat": "5.0 g",
+                  "sat_fat": "3.2 g",
+                  "carbs": "27.3 g",
+                  "sugar": "26.9 g",
+                  "fibre": "0.1 g",
+                  "protein": "10.3 g",
+                  "salt": "0.31 g",
+                  "caffeine": "344.5 mg"
+                }
+              },
+              "Vanilla": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "199 kcal",
+                  "fat": "5.0 g",
+                  "sat_fat": "3.2 g",
+                  "carbs": "28.4 g",
+                  "sugar": "27.7 g",
+                  "fibre": "0.1 g",
+                  "protein": "10.3 g",
+                  "salt": "0.31 g",
+                  "caffeine": "344.5 mg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "mocha-dark",
+          "name": "Mocha Dark",
+          "description": "Espresso with dark chocolate flavoured sauce and steamed milk, topped with whipped cream",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "210 kcal",
+              "fat": "5.0 g",
+              "sat_fat": "3.2 g",
+              "carbs": "30.7 g",
+              "sugar": "28.8 g",
+              "fibre": "4.4 g",
+              "protein": "8.2 g",
+              "salt": "0.17 g",
+              "caffeine": "304.8 mg"
+            },
+            "M": {
+              "energy": "263 kcal",
+              "fat": "6.3 g",
+              "sat_fat": "4.0 g",
+              "carbs": "38.4 g",
+              "sugar": "36.0 g",
+              "fibre": "5.5 g",
+              "protein": "10.3 g",
+              "salt": "0.21 g",
+              "caffeine": "381.0 mg"
+            }
+          }
+        },
+        {
+          "id": "mocha-white",
+          "name": "Mocha White",
+          "description": "Espresso with white chocolate flavoured sauce and steamed milk, topped with whipped cream",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "282 kcal",
+              "fat": "10.4 g",
+              "sat_fat": "7.4 g",
+              "carbs": "37.4 g",
+              "sugar": "37.1 g",
+              "fibre": "0.2 g",
+              "protein": "9.5 g",
+              "salt": "0.42 g",
+              "caffeine": "275.6 mg"
+            },
+            "M": {
+              "energy": "352 kcal",
+              "fat": "13.0 g",
+              "sat_fat": "9.3 g",
+              "carbs": "46.8 g",
+              "sugar": "46.4 g",
+              "fibre": "0.2 g",
+              "protein": "11.9 g",
+              "salt": "0.52 g",
+              "caffeine": "344.5 mg"
+            }
+          }
+        },
+        {
+          "id": "spanish-latte",
+          "name": "Spanish Latte",
+          "description": "Espresso with steamed milk and sweetened condensed milk",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {}
+        }
+      ]
+    },
+    {
+      "name": "Cold Coffee with Milk",
+      "items": [
+        {
+          "id": "iced-classic-latte",
+          "name": "Iced Classic Latte",
+          "description": "Our dark, rich espresso is combined with milk and served over ice. A perfect milk-forward cool down",
+          "matrix": {
+            "S": {
+              "Standard": {
+                "price": 4500,
+                "nutrition": {
+                  "energy": "75 kcal",
+                  "fat": "2.6 g",
+                  "sat_fat": "1.6 g",
+                  "carbs": "7.5 g",
+                  "sugar": "6.8 g",
+                  "protein": "4.5 g",
+                  "salt": "0.11 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Brownie": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "98 kcal",
+                  "fat": "2.9 g",
+                  "sat_fat": "1.7 g",
+                  "carbs": "13.5 g",
+                  "sugar": "12.0 g",
+                  "fibre": "0.4 g",
+                  "protein": "4.5 g",
+                  "salt": "0.12 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Caramel": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "100 kcal",
+                  "fat": "2.7 g",
+                  "sat_fat": "1.6 g",
+                  "carbs": "14.0 g",
+                  "sugar": "12.5 g",
+                  "protein": "4.5 g",
+                  "salt": "0.12 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Cookies": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "103 kcal",
+                  "fat": "2.9 g",
+                  "sat_fat": "1.7 g",
+                  "carbs": "15.0 g",
+                  "sugar": "13.5 g",
+                  "fibre": "0.3 g",
+                  "protein": "4.5 g",
+                  "salt": "0.13 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Free Sugar": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "75 kcal",
+                  "fat": "2.6 g",
+                  "sat_fat": "1.6 g",
+                  "carbs": "7.5 g",
+                  "sugar": "6.8 g",
+                  "protein": "4.5 g",
+                  "salt": "0.11 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Hazelnut": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "99 kcal",
+                  "fat": "2.7 g",
+                  "sat_fat": "1.6 g",
+                  "carbs": "14.0 g",
+                  "sugar": "12.5 g",
+                  "protein": "4.5 g",
+                  "salt": "0.12 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Kinder": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "106 kcal",
+                  "fat": "3.2 g",
+                  "sat_fat": "2.0 g",
+                  "carbs": "15.8 g",
+                  "sugar": "14.3 g",
+                  "fibre": "0.3 g",
+                  "protein": "4.7 g",
+                  "salt": "0.14 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Rose": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "97 kcal",
+                  "fat": "2.6 g",
+                  "sat_fat": "1.6 g",
+                  "carbs": "12.8 g",
+                  "sugar": "11.3 g",
+                  "protein": "4.5 g",
+                  "salt": "0.11 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Vanilla": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "98 kcal",
+                  "fat": "2.7 g",
+                  "sat_fat": "1.6 g",
+                  "carbs": "13.5 g",
+                  "sugar": "12.0 g",
+                  "protein": "4.5 g",
+                  "salt": "0.12 g",
+                  "caffeine": "65.0 mg"
+                }
+              }
+            },
+            "M": {
+              "Standard": {
+                "price": 5500,
+                "nutrition": {
+                  "energy": "100 kcal",
+                  "fat": "3.5 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "10.0 g",
+                  "sugar": "9.0 g",
+                  "protein": "6.0 g",
+                  "salt": "0.15 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Brownie": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "130 kcal",
+                  "fat": "3.8 g",
+                  "sat_fat": "2.3 g",
+                  "carbs": "18.0 g",
+                  "sugar": "16.0 g",
+                  "fibre": "0.5 g",
+                  "protein": "6.0 g",
+                  "salt": "0.16 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Caramel": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "135 kcal",
+                  "fat": "3.6 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "19.0 g",
+                  "sugar": "17.0 g",
+                  "protein": "6.0 g",
+                  "salt": "0.16 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Cookies": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "138 kcal",
+                  "fat": "3.8 g",
+                  "sat_fat": "2.3 g",
+                  "carbs": "20.0 g",
+                  "sugar": "18.0 g",
+                  "fibre": "0.4 g",
+                  "protein": "6.0 g",
+                  "salt": "0.17 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Free Sugar": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "100 kcal",
+                  "fat": "3.5 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "10.0 g",
+                  "sugar": "9.0 g",
+                  "protein": "6.0 g",
+                  "salt": "0.15 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Hazelnut": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "133 kcal",
+                  "fat": "3.6 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "19.0 g",
+                  "sugar": "17.0 g",
+                  "protein": "6.0 g",
+                  "salt": "0.16 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Kinder": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "142 kcal",
+                  "fat": "4.2 g",
+                  "sat_fat": "2.6 g",
+                  "carbs": "21.0 g",
+                  "sugar": "19.0 g",
+                  "fibre": "0.4 g",
+                  "protein": "6.2 g",
+                  "salt": "0.18 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Rose": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "129 kcal",
+                  "fat": "3.5 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "17.0 g",
+                  "sugar": "15.0 g",
+                  "protein": "6.0 g",
+                  "salt": "0.15 g",
+                  "caffeine": "90.0 mg"
+                }
+              },
+              "Vanilla": {
+                "price": 7000,
+                "nutrition": {
+                  "energy": "132 kcal",
+                  "fat": "3.6 g",
+                  "sat_fat": "2.2 g",
+                  "carbs": "18.0 g",
+                  "sugar": "16.0 g",
+                  "protein": "6.0 g",
+                  "salt": "0.16 g",
+                  "caffeine": "90.0 mg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "iced-dark-mocha",
+          "name": "Iced Dark Mocha",
+          "description": "We combine our rich, full-bodied espresso with bittersweet mocha sauce, milk and ice, then top it off with whipped cream",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "115 kcal",
+              "fat": "3.4 g",
+              "sat_fat": "2.0 g",
+              "carbs": "17.0 g",
+              "sugar": "15.0 g",
+              "fibre": "0.6 g",
+              "protein": "4.6 g",
+              "salt": "0.14 g",
+              "caffeine": "65.0 mg"
+            },
+            "M": {
+              "energy": "155 kcal",
+              "fat": "4.5 g",
+              "sat_fat": "2.7 g",
+              "carbs": "23.0 g",
+              "sugar": "20.0 g",
+              "fibre": "0.8 g",
+              "protein": "6.2 g",
+              "salt": "0.18 g",
+              "caffeine": "90.0 mg"
+            }
+          }
+        },
+        {
+          "id": "iced-spanish-latte",
+          "name": "Iced Spanish Latte",
+          "description": "Cold espresso blended with chilled milk and premium sweetened condensed milk, creating a smooth, creamy body with a perfectly balanced sweetness",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "127 kcal",
+              "fat": "3.8 g",
+              "sat_fat": "2.4 g",
+              "carbs": "19.0 g",
+              "sugar": "17.0 g",
+              "protein": "4.7 g",
+              "salt": "0.16 g",
+              "caffeine": "65.0 mg"
+            },
+            "M": {
+              "energy": "172 kcal",
+              "fat": "5.0 g",
+              "sat_fat": "3.1 g",
+              "carbs": "26.0 g",
+              "sugar": "23.0 g",
+              "protein": "6.3 g",
+              "salt": "0.2 g",
+              "caffeine": "90.0 mg"
+            }
+          }
+        },
+        {
+          "id": "iced-white-chocolate-mocha",
+          "name": "Iced White Chocolate Mocha",
+          "description": "Espresso, milk and white chocolate flavoured sauce poured over ice. Topped with whipped cream",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "120 kcal",
+              "fat": "3.8 g",
+              "sat_fat": "2.3 g",
+              "carbs": "18.0 g",
+              "sugar": "16.0 g",
+              "protein": "4.6 g",
+              "salt": "0.15 g",
+              "caffeine": "65.0 mg"
+            },
+            "M": {
+              "energy": "162 kcal",
+              "fat": "5.0 g",
+              "sat_fat": "3.0 g",
+              "carbs": "25.0 g",
+              "sugar": "22.0 g",
+              "protein": "6.2 g",
+              "salt": "0.19 g",
+              "caffeine": "90.0 mg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Drinks Without Coffee",
+      "items": [
+        {
+          "id": "hot-chocolate",
+          "name": "Hot Chocolate",
+          "description": "A velvety hot chocolate crafted with rich cocoa and perfectly steamed milk, delivering a smooth and comforting chocolate experience",
+          "sizes": {
+            "S": 5000,
+            "M": 6000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "228 kcal",
+              "fat": "7.8 g",
+              "sat_fat": "4.9 g",
+              "carbs": "30.8 g",
+              "sugar": "29.5 g",
+              "fibre": "1.7 g",
+              "protein": "9.0 g",
+              "salt": "0.33 g",
+              "caffeine": "14.0 mg"
+            },
+            "M": {
+              "energy": "285 kcal",
+              "fat": "9.8 g",
+              "sat_fat": "6.1 g",
+              "carbs": "38.5 g",
+              "sugar": "36.9 g",
+              "fibre": "2.1 g",
+              "protein": "11.2 g",
+              "salt": "0.41 g",
+              "caffeine": "18.0 mg"
+            }
+          }
+        },
+        {
+          "id": "hot-coconut-with-strawberry",
+          "name": "Hot Coconut with Strawberry",
+          "description": "A creamy blend of coconut milk infused with a gentle strawberry note, offering a balanced mix of tropical smoothness and light fruity sweetness",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "210 kcal",
+              "fat": "8.4 g",
+              "sat_fat": "6.6 g",
+              "carbs": "25.1 g",
+              "sugar": "23.8 g",
+              "fibre": "1.3 g",
+              "protein": "5.1 g",
+              "salt": "0.23 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "262 kcal",
+              "fat": "10.5 g",
+              "sat_fat": "8.2 g",
+              "carbs": "31.4 g",
+              "sugar": "29.8 g",
+              "fibre": "1.6 g",
+              "protein": "6.4 g",
+              "salt": "0.29 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "hot-lotus",
+          "name": "Hot Lotus",
+          "description": "Warm, silky milk blended with indulgent lotus spread, creating a caramelized, biscuit-like flavor with a smooth and satisfying finish",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "266 kcal",
+              "fat": "10.1 g",
+              "sat_fat": "6.3 g",
+              "carbs": "36.6 g",
+              "sugar": "34.6 g",
+              "fibre": "1.0 g",
+              "protein": "8.6 g",
+              "salt": "0.37 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "332 kcal",
+              "fat": "12.6 g",
+              "sat_fat": "7.9 g",
+              "carbs": "45.8 g",
+              "sugar": "43.2 g",
+              "fibre": "1.2 g",
+              "protein": "10.8 g",
+              "salt": "0.46 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "hot-pistachio",
+          "name": "Hot Pistachio",
+          "description": "Steamed milk combined with premium pistachio flavor, delivering a nutty, creamy taste that feels rich without being overpowering",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "244 kcal",
+              "fat": "9.1 g",
+              "sat_fat": "5.7 g",
+              "carbs": "31.4 g",
+              "sugar": "28.8 g",
+              "fibre": "1.9 g",
+              "protein": "9.2 g",
+              "salt": "0.3 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "305 kcal",
+              "fat": "11.4 g",
+              "sat_fat": "7.1 g",
+              "carbs": "39.2 g",
+              "sugar": "36.0 g",
+              "fibre": "2.4 g",
+              "protein": "11.5 g",
+              "salt": "0.38 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "hot-pistachio-with-cookies",
+          "name": "Hot Pistachio With Cookies",
+          "description": "A luxurious pistachio drink enhanced with cookie crumbles, adding a subtle crunch and an extra layer of warmth and sweetness",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "278 kcal",
+              "fat": "11.1 g",
+              "sat_fat": "6.7 g",
+              "carbs": "36.5 g",
+              "sugar": "34.2 g",
+              "fibre": "2.5 g",
+              "protein": "9.7 g",
+              "salt": "0.35 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "348 kcal",
+              "fat": "13.9 g",
+              "sat_fat": "8.4 g",
+              "carbs": "45.6 g",
+              "sugar": "42.8 g",
+              "fibre": "3.1 g",
+              "protein": "12.1 g",
+              "salt": "0.44 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "karak-chai",
+          "name": "Karak Chai",
+          "description": "A bold and aromatic chai infused with traditional spices and milk, offering a deep, warming flavor inspired by classic karak tea.",
+          "sizes": {
+            "S": 5000,
+            "M": 6000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "196 kcal",
+              "fat": "6.9 g",
+              "sat_fat": "4.3 g",
+              "carbs": "27.8 g",
+              "sugar": "26.0 g",
+              "fibre": "0.6 g",
+              "protein": "7.7 g",
+              "salt": "0.29 g",
+              "caffeine": "52.0 mg"
+            },
+            "M": {
+              "energy": "245 kcal",
+              "fat": "8.6 g",
+              "sat_fat": "5.4 g",
+              "carbs": "34.7 g",
+              "sugar": "32.5 g",
+              "fibre": "0.8 g",
+              "protein": "9.6 g",
+              "salt": "0.36 g",
+              "caffeine": "65.0 mg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Refreshers",
+      "items": [
+        {
+          "id": "iced-mango-tea",
+          "name": "Iced Mango Tea",
+          "description": "A bright iced tea infused with smooth mango notes, delivering a clean tropical refreshment with a light, crisp finish",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "55 kcal",
+              "carbs": "13.5 g",
+              "sugar": "13.0 g",
+              "caffeine": "1.0 mg"
+            },
+            "M": {
+              "energy": "73 kcal",
+              "carbs": "17.3 g",
+              "sugar": "16.9 g",
+              "caffeine": "1.0 mg"
+            }
+          }
+        },
+        {
+          "id": "iced-watermelon-tea",
+          "name": "Iced Watermelon Tea",
+          "description": "Cool and delicate, blending refreshing tea with subtle watermelon sweetness for a smooth, thirst-quenching experience",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "54 kcal",
+              "carbs": "13.2 g",
+              "sugar": "12.7 g",
+              "caffeine": "1.0 mg"
+            },
+            "M": {
+              "energy": "72 kcal",
+              "carbs": "17.0 g",
+              "sugar": "16.6 g",
+              "caffeine": "1.0 mg"
+            }
+          }
+        },
+        {
+          "id": "iced-peach-tea",
+          "name": "Iced Peach Tea",
+          "description": "Soft peach aromas layered into chilled tea, offering a balanced sweetness with a refined, refreshing profile",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "55 kcal",
+              "carbs": "13.6 g",
+              "sugar": "13.1 g",
+              "caffeine": "1.0 mg"
+            },
+            "M": {
+              "energy": "73 kcal",
+              "carbs": "17.3 g",
+              "sugar": "16.9 g",
+              "caffeine": "1.0 mg"
+            }
+          }
+        },
+        {
+          "id": "lime-breeze",
+          "name": "Lime Breeze",
+          "description": "Zesty lime flavors combined with a crisp base, creating a sharp, refreshing drink with a clean citrus finish",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "50 kcal",
+              "carbs": "12.5 g",
+              "sugar": "12.0 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "67 kcal",
+              "carbs": "16.5 g",
+              "sugar": "16.0 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "melon-breeze",
+          "name": "Melon Breeze",
+          "description": "Light and refreshing with gentle melon notes, delivering a smooth, cooling taste that feels effortlessly fresh",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "53 kcal",
+              "carbs": "13.0 g",
+              "sugar": "12.5 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "70 kcal",
+              "carbs": "17.0 g",
+              "sugar": "16.5 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "orange-pomegranate-fresh-juice",
+          "name": "Orange Pomegranate Fresh Juice",
+          "description": "A refined balance of citrus and tart pomegranate notes, creating a bold yet refreshing juice with a clean finish",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "79 kcal",
+              "carbs": "19.5 g",
+              "sugar": "18.2 g",
+              "fibre": "0.3 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "106 kcal",
+              "carbs": "26.2 g",
+              "sugar": "24.8 g",
+              "fibre": "0.4 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "mexican-red-bull",
+          "name": "Mexican Red Bull",
+          "description": "An energizing blend with a bold character, combining vibrant flavors for a lively and refreshing kick",
+          "price": 7000,
+          "nutrition": {
+            "energy": "143 kcal",
+            "carbs": "35.5 g",
+            "sugar": "33.5 g",
+            "salt": "0.1 g",
+            "caffeine": "120.0 mg"
+          }
+        },
+        {
+          "id": "red-bull-breeze",
+          "name": "Red Bull Breeze",
+          "description": "A light and refreshing take on energy, blended smoothly for a crisp taste with a subtle lift.",
+          "price": 7500,
+          "nutrition": {
+            "energy": "141 kcal",
+            "carbs": "35.0 g",
+            "sugar": "33.0 g",
+            "salt": "0.1 g",
+            "caffeine": "120.0 mg"
+          }
+        },
+        {
+          "id": "red-bull-wild",
+          "name": "Red Bull Wild",
+          "description": "Bold, vibrant, and energizing, delivering an intense flavor profile with a powerful, refreshing edge",
+          "price": 7500,
+          "nutrition": {
+            "energy": "148 kcal",
+            "carbs": "36.5 g",
+            "sugar": "35.0 g",
+            "salt": "0.1 g",
+            "caffeine": "120.0 mg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Milk Shake",
+      "items": [
+        {
+          "id": "blueberry-milkshake",
+          "name": "Blueberry Milkshake",
+          "description": "A smooth and refreshing milkshake blended with ripe blueberries, delivering a balanced sweetness and a clean, fruity finish",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "176 kcal",
+              "fat": "1.7 g",
+              "sat_fat": "1.0 g",
+              "carbs": "39.4 g",
+              "sugar": "36.8 g",
+              "fibre": "1.1 g",
+              "protein": "1.5 g",
+              "salt": "0.14 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "220 kcal",
+              "fat": "2.1 g",
+              "sat_fat": "1.3 g",
+              "carbs": "49.2 g",
+              "sugar": "46.0 g",
+              "fibre": "1.4 g",
+              "protein": "1.9 g",
+              "salt": "0.18 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "dragon-milkshake",
+          "name": "Dragon Milkshake",
+          "description": "A vibrant and silky milkshake infused with exotic dragon fruit, offering a light, refreshing taste with a naturally smooth texture",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "174 kcal",
+              "fat": "1.6 g",
+              "sat_fat": "1.0 g",
+              "carbs": "38.9 g",
+              "sugar": "36.2 g",
+              "fibre": "1.0 g",
+              "protein": "1.4 g",
+              "salt": "0.14 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "218 kcal",
+              "fat": "2.0 g",
+              "sat_fat": "1.2 g",
+              "carbs": "48.6 g",
+              "sugar": "45.2 g",
+              "fibre": "1.2 g",
+              "protein": "1.8 g",
+              "salt": "0.17 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "lotus-milkshake",
+          "name": "Lotus Milkshake",
+          "description": "A rich and indulgent milkshake crafted with lotus spread, featuring warm caramelized biscuit notes and a creamy, satisfying body",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "212 kcal",
+              "fat": "3.7 g",
+              "sat_fat": "2.2 g",
+              "carbs": "43.0 g",
+              "sugar": "40.7 g",
+              "fibre": "0.9 g",
+              "protein": "1.8 g",
+              "salt": "0.21 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "265 kcal",
+              "sat_fat": "2.8 g",
+              "carbs": "53.8 g",
+              "sugar": "50.9 g",
+              "fibre": "1.1 g",
+              "protein": "2.2 g",
+              "salt": "0.26 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "nutella-milkshake",
+          "name": "Nutella Milkshake",
+          "description": "A decadent blend of creamy milk and Nutella, creating a deep chocolate-hazelnut flavor with a luxuriously smooth mouthfeel",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "220 kcal",
+              "fat": "4.2 g",
+              "sat_fat": "2.5 g",
+              "carbs": "43.5 g",
+              "sugar": "40.5 g",
+              "fibre": "1.6 g",
+              "protein": "1.9 g",
+              "salt": "0.22 g",
+              "caffeine": "5.0 mg"
+            },
+            "M": {
+              "energy": "275 kcal",
+              "fat": "5.2 g",
+              "sat_fat": "3.1 g",
+              "carbs": "54.4 g",
+              "sugar": "50.6 g",
+              "fibre": "2.0 g",
+              "protein": "2.4 g",
+              "salt": "0.28 g",
+              "caffeine": "6.0 mg"
+            }
+          }
+        },
+        {
+          "id": "oreo-milkshake",
+          "name": "Oreo Milkshake",
+          "description": "A classic milkshake mixed with crushed Oreo cookies, combining creamy vanilla tones with a subtle chocolate crunch",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "216 kcal",
+              "fat": "3.9 g",
+              "sat_fat": "2.4 g",
+              "carbs": "42.9 g",
+              "sugar": "39.8 g",
+              "fibre": "1.4 g",
+              "protein": "1.8 g",
+              "salt": "0.24 g",
+              "caffeine": "3.0 mg"
+            },
+            "M": {
+              "energy": "270 kcal",
+              "fat": "4.9 g",
+              "sat_fat": "3.0 g",
+              "carbs": "53.6 g",
+              "sugar": "49.8 g",
+              "fibre": "1.8 g",
+              "protein": "2.3 g",
+              "salt": "0.3 g",
+              "caffeine": "4.0 mg"
+            }
+          }
+        },
+        {
+          "id": "pistachio-milkshake",
+          "name": "Pistachio Milkshake",
+          "description": "A refined milkshake infused with pistachio flavor, delivering a nutty richness and a soft, elegant finish",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "206 kcal",
+              "fat": "3.4 g",
+              "sat_fat": "2.1 g",
+              "carbs": "41.7 g",
+              "sugar": "38.4 g",
+              "fibre": "1.8 g",
+              "protein": "2.0 g",
+              "salt": "0.19 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "258 kcal",
+              "fat": "4.2 g",
+              "sat_fat": "2.6 g",
+              "carbs": "52.1 g",
+              "sugar": "48.0 g",
+              "fibre": "2.3 g",
+              "protein": "2.5 g",
+              "salt": "0.24 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "rashi-milkshake",
+          "name": "Rashi Milkshake",
+          "description": "A playful and creamy milkshake inspired by rashi candy flavors, offering a sweet, nostalgic taste with a smooth blend",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "200 kcal",
+              "fat": "2.9 g",
+              "sat_fat": "1.8 g",
+              "carbs": "42.2 g",
+              "sugar": "39.9 g",
+              "fibre": "0.5 g",
+              "protein": "1.6 g",
+              "salt": "0.18 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "250 kcal",
+              "fat": "3.6 g",
+              "sat_fat": "2.2 g",
+              "carbs": "52.8 g",
+              "sugar": "49.9 g",
+              "fibre": "0.6 g",
+              "protein": "2.0 g",
+              "salt": "0.22 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "spanish-milkshake",
+          "name": "Spanish Milkshake",
+          "description": "A bold and creamy milkshake inspired by Spanish-style flavors, featuring a deep caramel tone and a rich, comforting texture",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "204 kcal",
+              "fat": "3.1 g",
+              "sat_fat": "1.9 g",
+              "carbs": "42.4 g",
+              "sugar": "39.4 g",
+              "fibre": "0.8 g",
+              "protein": "1.7 g",
+              "salt": "0.18 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "255 kcal",
+              "fat": "3.9 g",
+              "sat_fat": "2.4 g",
+              "carbs": "53.0 g",
+              "sugar": "49.2 g",
+              "fibre": "1.0 g",
+              "protein": "2.1 g",
+              "salt": "0.23 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "strawberry-milkshake",
+          "name": "Strawberry Milkshake",
+          "description": "A fresh and creamy milkshake blended with strawberry flavor, delivering a light sweetness and a smooth, refreshing sip",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "174 kcal",
+              "fat": "1.6 g",
+              "sat_fat": "1.0 g",
+              "carbs": "39.1 g",
+              "sugar": "36.6 g",
+              "fibre": "1.0 g",
+              "protein": "1.5 g",
+              "salt": "0.14 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "218 kcal",
+              "fat": "2.0 g",
+              "sat_fat": "1.2 g",
+              "carbs": "48.9 g",
+              "sugar": "45.8 g",
+              "fibre": "1.3 g",
+              "protein": "1.9 g",
+              "salt": "0.18 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "mocha-milkshake",
+          "name": "Mocha Milkshake",
+          "description": "A smooth fusion of chocolate depth and subtle coffee notes, finished with a refined, creamy texture.",
+          "sizes": {
+            "S": 7000,
+            "M": 8000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "214 kcal",
+              "fat": "3.8 g",
+              "sat_fat": "2.3 g",
+              "carbs": "42.7 g",
+              "sugar": "39.7 g",
+              "fibre": "1.7 g",
+              "protein": "1.9 g",
+              "salt": "0.22 g",
+              "caffeine": "14.0 mg"
+            },
+            "M": {
+              "energy": "268 kcal",
+              "fat": "4.8 g",
+              "sat_fat": "2.9 g",
+              "carbs": "53.4 g",
+              "sugar": "49.6 g",
+              "fibre": "2.1 g",
+              "protein": "2.4 g",
+              "salt": "0.27 g",
+              "caffeine": "18.0 mg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mojito",
+      "items": [
+        {
+          "id": "apollo-mojito",
+          "name": "Apollo Mojito",
+          "description": "A vibrant fusion of tropical fruit pur\u00e9e and crisp lime, finished with sparkling soda.",
+          "sizes": {
+            "S": 6500,
+            "M": 7500
+          },
+          "nutrition": {
+            "S": {
+              "energy": "35 kcal",
+              "carbs": "8.0 g",
+              "sugar": "7.0 g",
+              "fibre": "0.5 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "50 kcal",
+              "carbs": "12.0 g",
+              "sugar": "11.0 g",
+              "fibre": "0.8 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "blue-mojito",
+          "name": "Blue Mojito",
+          "description": "A cool and refreshing profile of blue notes and citrus brightness over a sparkling base",
+          "sizes": {
+            "S": 6500,
+            "M": 7500
+          },
+          "nutrition": {
+            "S": {
+              "energy": "35 kcal",
+              "carbs": "8.0 g",
+              "sugar": "7.0 g",
+              "fibre": "0.5 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "50 kcal",
+              "carbs": "12.0 g",
+              "sugar": "11.0 g",
+              "fibre": "0.8 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "pomegranate-mojito",
+          "name": "Pomegranate Mojito",
+          "description": "Bold pomegranate character layered with zesty lime, served light and refreshing",
+          "sizes": {
+            "S": 6500,
+            "M": 7500
+          },
+          "nutrition": {
+            "S": {
+              "energy": "27 kcal",
+              "carbs": "7.0 g",
+              "sugar": "6.0 g",
+              "fibre": "0.3 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "40 kcal",
+              "carbs": "10.0 g",
+              "sugar": "9.0 g",
+              "fibre": "0.5 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "strawberry-mojito",
+          "name": "Strawberry Mojito",
+          "description": "Smooth strawberry accents balanced with citrus notes for a clean, fruity finish",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "27 kcal",
+              "carbs": "7.0 g",
+              "sugar": "6.0 g",
+              "fibre": "0.3 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "40 kcal",
+              "carbs": "10.0 g",
+              "sugar": "9.0 g",
+              "fibre": "0.5 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "watermelon-mojito",
+          "name": "Watermelon Mojito",
+          "description": "Juicy watermelon tones paired with lime, delivering a naturally refreshing taste",
+          "sizes": {
+            "S": 6000,
+            "M": 7000
+          },
+          "nutrition": {
+            "S": {
+              "energy": "27 kcal",
+              "carbs": "7.0 g",
+              "sugar": "6.0 g",
+              "fibre": "0.3 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "40 kcal",
+              "carbs": "10.0 g",
+              "sugar": "9.0 g",
+              "fibre": "0.5 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        },
+        {
+          "id": "wild-berry-mojito",
+          "name": "Wild Berry Mojito",
+          "description": "A rich mix of forest berries with subtle sweetness, lifted by a sparkling finish",
+          "sizes": {
+            "S": 6500,
+            "M": 7500
+          },
+          "nutrition": {
+            "S": {
+              "energy": "27 kcal",
+              "carbs": "7.0 g",
+              "sugar": "6.0 g",
+              "fibre": "0.3 g",
+              "caffeine": "0.0 mg"
+            },
+            "M": {
+              "energy": "40 kcal",
+              "carbs": "10.0 g",
+              "sugar": "9.0 g",
+              "fibre": "0.5 g",
+              "caffeine": "0.0 mg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smoothie",
+      "items": [
+        {
+          "id": "blueberry-smoothie",
+          "name": "Blueberry Smoothie",
+          "description": "A refined blend of ripe blueberries, delivering a smooth balance between natural sweetness and gentle tartness. Silky in texture, refreshing on the palate, and effortlessly elegant from first sip to last",
+          "price": 6000,
+          "nutrition": {
+            "energy": "134 kcal",
+            "carbs": "33.5 g",
+            "sugar": "32.8 g",
+            "protein": "0.1 g",
+            "salt": "0.02 g",
+            "caffeine": "0.0 mg"
+          }
+        },
+        {
+          "id": "hawaii-smoothie",
+          "name": "Hawaii Smoothie",
+          "description": "A vibrant tropical composition inspired by island flavors, combining sun-ripened fruits into a bright, refreshing smoothie that feels light, exotic, and unmistakably uplifting",
+          "price": 7000,
+          "nutrition": {
+            "energy": "165 kcal",
+            "fat": "2.2 g",
+            "sat_fat": "1.3 g",
+            "carbs": "31.9 g",
+            "sugar": "30.6 g",
+            "protein": "5.1 g",
+            "salt": "0.11 g",
+            "caffeine": "0.0 mg"
+          }
+        },
+        {
+          "id": "mango-with-orange-smoothie",
+          "name": "Mango with Orange Smoothie",
+          "description": "A bold fusion where rich, velvety mango meets the crisp brightness of fresh orange. Full-bodied, lively, and perfectly balanced between sweetness and citrus freshness",
+          "price": 7000,
+          "nutrition": {
+            "energy": "141 kcal",
+            "carbs": "35.4 g",
+            "sugar": "34.7 g",
+            "protein": "0.1 g",
+            "salt": "0.02 g",
+            "caffeine": "0.0 mg"
+          }
+        },
+        {
+          "id": "passion-fruit-smoothie",
+          "name": "Passion Fruit Smoothie",
+          "description": "An expressive and aromatic smoothie with the distinctive tang of passion fruit. Sharp yet smooth, it delivers an intense flavor profile that lingers pleasantly with every sip",
+          "price": 7000,
+          "nutrition": {
+            "energy": "137 kcal",
+            "carbs": "34.1 g",
+            "sugar": "33.2 g",
+            "protein": "0.1 g",
+            "salt": "0.02 g",
+            "caffeine": "0.0 mg"
+          }
+        },
+        {
+          "id": "pomegranate-smoothie",
+          "name": "Pomegranate Smoothie",
+          "description": "A sophisticated blend highlighting the deep, jewel-like character of pomegranate. Clean, crisp, and slightly tart, offering a refreshing experience with a refined finish",
+          "price": 6000,
+          "nutrition": {
+            "energy": "131 kcal",
+            "carbs": "32.6 g",
+            "sugar": "31.8 g",
+            "protein": "0.1 g",
+            "salt": "0.01 g",
+            "caffeine": "0.0 mg"
+          }
+        },
+        {
+          "id": "smoked-smoothie",
+          "name": "Smoked Smoothie",
+          "description": "A unique and layered creation with subtle smoky undertones woven into a smooth, balanced fruit base. Complex, intriguing, and crafted for those who appreciate depth beyond the ordinary",
+          "price": 7000,
+          "nutrition": {
+            "energy": "172 kcal",
+            "fat": "2.5 g",
+            "sat_fat": "1.5 g",
+            "carbs": "33.4 g",
+            "sugar": "32.1 g",
+            "protein": "5.4 g",
+            "salt": "0.12 g",
+            "caffeine": "0.0 mg"
+          }
+        },
+        {
+          "id": "strawberry-smoothie",
+          "name": "Strawberry Smoothie",
+          "description": "A classic reimagined with ripe strawberries blended into a creamy, smooth texture. Soft sweetness, fresh aroma, and a clean, comforting finish that never feels heavy",
+          "price": 6000,
+          "nutrition": {
+            "energy": "135 kcal",
+            "carbs": "33.9 g",
+            "sugar": "33.0 g",
+            "protein": "0.1 g",
+            "salt": "0.02 g",
+            "caffeine": "0.0 mg"
+          }
+        },
+        {
+          "id": "strawberry-with-orange-smoothie",
+          "name": "Strawberry with Orange Smoothie",
+          "description": "A lively harmony of sweet strawberries and bright citrus notes. Light, refreshing, and perfectly rounded, offering a crisp taste with a smooth, refreshing flow",
+          "price": 7000,
+          "nutrition": {
+            "energy": "140 kcal",
+            "carbs": "35.0 g",
+            "sugar": "34.1 g",
+            "protein": "0.1 g",
+            "salt": "0.02 g",
+            "caffeine": "0.0 mg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Extra Cream",
+      "items": [
+        {
+          "id": "cold-foam",
+          "name": "Cold Foam",
+          "description": "A light, creamy foam added on top of cold drinks for a smooth texture and subtle sweetness",
+          "price": 1000
+        },
+        {
+          "id": "milk-splash",
+          "name": "Milk Splash",
+          "description": "A small amount of milk added to coffee to lightly soften the flavor",
+          "price": 1000
+        },
+        {
+          "id": "skimmed-milk",
+          "name": "Skimmed Milk",
+          "description": "Pure milk taste, with no fat",
+          "price": 0
+        },
+        {
+          "id": "whipped-cream",
+          "name": "Whipped Cream",
+          "description": "Lightly sweetened cream whipped to a soft, fluffy texture and as a topping",
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "name": "Extra Flavors",
+      "items": [
+        {
+          "id": "add-apollo",
+          "name": "Add Apollo",
+          "description": "",
+          "price": 1500
+        },
+        {
+          "id": "add-apples",
+          "name": "Add Apples",
+          "description": "",
+          "price": 1500
+        },
+        {
+          "id": "add-blue",
+          "name": "Add Blue",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-brownie",
+          "name": "Add Brownie",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-caramel",
+          "name": "Add Caramel",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-cookies",
+          "name": "Add Cookies",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-hazelnut",
+          "name": "Add Hazelnut",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-mango",
+          "name": "Add Mango",
+          "description": "",
+          "price": 1500
+        },
+        {
+          "id": "add-pomegranate",
+          "name": "Add Pomegranate",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-rose",
+          "name": "Add Rose",
+          "description": "",
+          "price": 1500
+        },
+        {
+          "id": "add-strawberry",
+          "name": "Add Strawberry",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-vanilla",
+          "name": "Add Vanilla",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-watermelon",
+          "name": "Add Watermelon",
+          "description": "",
+          "price": 1000
+        },
+        {
+          "id": "add-wild-berry",
+          "name": "Add Wild Berry",
+          "description": "",
+          "price": 1500
+        },
+        {
+          "id": "espresso-shot",
+          "name": "Espresso Shot",
+          "description": "",
+          "price": 1500
+        }
+      ]
+    }
+  ]
+}

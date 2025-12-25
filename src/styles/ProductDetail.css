@@ -1,0 +1,11 @@
+.product-page { display: flex; justify-content: center; gap: 60px; padding: 60px 20px; }
+.label { font-size: 0.8rem; letter-spacing: 2px; color: #203467; margin-bottom: 15px; }
+.btn-group { display: flex; gap: 10px; }
+.btn-group button { width: 60px; height: 60px; border: 2px solid #203467; border-radius: 8px; font-weight: 900; cursor: pointer; }
+.btn-group button.active { background: #203467; color: #d4a373; }
+.spec-box { flex: 1; max-width: 400px; background: #FDFDFD; border: 1px solid #EEE; border-radius: 12px; padding: 30px; }
+.nutrition-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 25px; border-top: 1px solid #EEE; padding-top: 20px; }
+.grid-row { display: flex; flex-direction: column; }
+.key { font-size: 0.7rem; text-transform: uppercase; color: #AAA; }
+.val { font-size: 0.95rem; font-weight: 700; color: #203467; }
+.price-tag { text-align: right; margin-top: 30px; font-size: 2rem; font-weight: 900; color: #203467; }
