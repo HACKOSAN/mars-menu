@@ -1,6 +1,6 @@
 {
   "store": "Mars Coffee House",
-  "categories": [
+  "drinks_categories": [
     {
       "name": "Hot Coffee",
       "items": [
@@ -2285,6 +2285,353 @@
           "name": "Espresso Shot",
           "description": "",
           "price": 1500
+        }
+      ]
+    }
+  ],
+  "food_categories": [
+    {
+      "name": "Bakery Treat",
+      "items": [
+        {
+          "id": "apple-pie",
+          "name": "Apple Pie",
+          "description": "Classic apple pie with tender spiced apples and a golden, flaky crust",
+          "price": 6000,
+          "nutrition": {
+            "energy": "320 kcal",
+            "carbs": "45.0 g",
+            "fat": "15.0 g",
+            "protein": "3.0 g",
+            "sugar": "22.0 g"
+          }
+        },
+        {
+          "id": "banana-bread",
+          "name": "Banana Bread",
+          "description": "Ultra-soft banana bread, rich in natural banana flavor and inspired by Mars' signature recipe",
+          "price": 3500,
+          "nutrition": {
+            "energy": "280 kcal",
+            "carbs": "38.0 g",
+            "fat": "12.0 g",
+            "protein": "4.0 g",
+            "sugar": "18.0 g"
+          }
+        },
+        {
+          "id": "brownies-cup",
+          "name": "Brownies Cup",
+          "description": "Fudgy chocolate brownie, rich and moist with an intense cocoa taste",
+          "price": 5500,
+          "nutrition": {
+            "energy": "360 kcal",
+            "carbs": "42.0 g",
+            "fat": "20.0 g",
+            "protein": "5.0 g",
+            "sugar": "30.0 g"
+          }
+        },
+        {
+          "id": "cheesecake-lotus",
+          "name": "Cheesecake Lotus",
+          "description": "Creamy cheesecake infused with Lotus biscuit flavor and a smooth caramel finish",
+          "price": 8000,
+          "nutrition": {
+            "energy": "420 kcal",
+            "carbs": "40.0 g",
+            "fat": "28.0 g",
+            "protein": "7.0 g",
+            "sugar": "30.0 g"
+          }
+        },
+        {
+          "id": "cheesecake-strawberry",
+          "name": "Cheesecake Strawberry",
+          "description": "Silky cheesecake topped with sweet strawberry sauce for a fresh, fruity balance",
+          "price": 8000,
+          "nutrition": {
+            "energy": "380 kcal",
+            "carbs": "36.0 g",
+            "fat": "24.0 g",
+            "protein": "7.0 g",
+            "sugar": "26.0 g"
+          }
+        },
+        {
+          "id": "cheesecake-lemon",
+          "name": "Cheesecake Lemon",
+          "description": "Smooth cheesecake with a light, refreshing lemon twist",
+          "price": 7000,
+          "nutrition": {
+            "energy": "360 kcal",
+            "carbs": "34.0 g",
+            "fat": "22.0 g",
+            "protein": "7.0 g",
+            "sugar": "24.0 g"
+          }
+        },
+        {
+          "id": "cheesecake-pistachio",
+          "name": "Cheesecake Pistachio",
+          "description": "Rich, creamy cheesecake blended with pistachio for a deep nutty flavor",
+          "price": 9000,
+          "nutrition": {
+            "energy": "430 kcal",
+            "carbs": "38.0 g",
+            "fat": "29.0 g",
+            "protein": "8.0 g",
+            "sugar": "27.0 g"
+          }
+        },
+        {
+          "id": "cheesecake-nutella",
+          "name": "Cheesecake Nutella",
+          "description": "Velvety cheesecake swirled with rich Nutella chocolate spread",
+          "price": 8000,
+          "nutrition": {
+            "energy": "450 kcal",
+            "carbs": "42.0 g",
+            "fat": "30.0 g",
+            "protein": "8.0 g",
+            "sugar": "32.0 g"
+          }
+        },
+        {
+          "id": "cookies-dark",
+          "name": "Cookies Dark",
+          "description": "Soft-baked dark chocolate cookies with a rich, bold cocoa flavor",
+          "price": 3500,
+          "nutrition": {
+            "energy": "260 kcal",
+            "carbs": "32.0 g",
+            "fat": "14.0 g",
+            "protein": "4.0 g",
+            "sugar": "20.0 g"
+          }
+        },
+        {
+          "id": "cookies-brown",
+          "name": "Cookies Brown",
+          "description": "Chewy brown cookies with a warm, buttery sweetness",
+          "price": 3500,
+          "nutrition": {
+            "energy": "240 kcal",
+            "carbs": "30.0 g",
+            "fat": "12.0 g",
+            "protein": "4.0 g",
+            "sugar": "18.0 g"
+          }
+        },
+        {
+          "id": "cookies-red-velvet",
+          "name": "Cookies Red Velvet",
+          "description": "Soft red velvet cookies with a mild cocoa taste and smooth texture",
+          "price": 3500,
+          "nutrition": {
+            "energy": "250 kcal",
+            "carbs": "31.0 g",
+            "fat": "13.0 g",
+            "protein": "4.0 g",
+            "sugar": "21.0 g"
+          }
+        },
+        {
+          "id": "cookies-orange",
+          "name": "Cookies Orange",
+          "description": "Fresh orange-flavored cookies with a light citrus aroma",
+          "price": 3500,
+          "nutrition": {
+            "energy": "230 kcal",
+            "carbs": "29.0 g",
+            "fat": "11.0 g",
+            "protein": "3.0 g",
+            "sugar": "17.0 g"
+          }
+        },
+        {
+          "id": "cookies-new-york",
+          "name": "Cookies New York",
+          "description": "Thick, soft New York\u2013style cookies packed with a rich, indulgent chocolate flavor",
+          "price": 3500,
+          "nutrition": {
+            "energy": "320 kcal",
+            "carbs": "38.0 g",
+            "fat": "18.0 g",
+            "protein": "5.0 g",
+            "sugar": "25.0 g"
+          }
+        },
+        {
+          "id": "crunch",
+          "name": "Crunch",
+          "description": "Crispy, golden dessert with an irresistible peanut-butter\u2013style flavor and a satisfying crunch",
+          "price": 3500,
+          "nutrition": {
+            "energy": "130 kcal",
+            "carbs": "16.0 g",
+            "fat": "6.0 g",
+            "protein": "2.0 g",
+            "sugar": "8.0 g"
+          }
+        },
+        {
+          "id": "tiramisu",
+          "name": "Tiramisu",
+          "description": "Creamy tiramisu with a distinctive Iraqi qaimar flavor and a smooth coffee finish",
+          "price": 8500,
+          "nutrition": {
+            "energy": "420 kcal",
+            "carbs": "36.0 g",
+            "fat": "28.0 g",
+            "protein": "6.0 g",
+            "sugar": "25.0 g"
+          }
+        },
+        {
+          "id": "croissant-butter",
+          "name": "Croissant Butter",
+          "description": "Perfectly baked, buttery layers with a crisp outside and soft, airy center",
+          "price": 4500,
+          "nutrition": {
+            "energy": "300 kcal",
+            "carbs": "32.0 g",
+            "fat": "18.0 g",
+            "protein": "6.0 g",
+            "sugar": "6.0 g"
+          }
+        },
+        {
+          "id": "croissant-nutella",
+          "name": "Croissant Nutella",
+          "description": "Flaky, buttery croissant filled with rich, creamy Nutella and baked to golden perfection",
+          "price": 5500,
+          "nutrition": {
+            "energy": "390 kcal",
+            "carbs": "40.0 g",
+            "fat": "24.0 g",
+            "protein": "7.0 g",
+            "sugar": "22.0 g"
+          }
+        },
+        {
+          "id": "croissant-pistachio",
+          "name": "Croissant Pistachio",
+          "description": "Delicate buttery layers filled with smooth pistachio cream for a rich, nutty flavor",
+          "price": 5500,
+          "nutrition": {
+            "energy": "410 kcal",
+            "carbs": "38.0 g",
+            "fat": "26.0 g",
+            "protein": "8.0 g",
+            "sugar": "20.0 g"
+          }
+        },
+        {
+          "id": "croissant-cheese",
+          "name": "Croissant Cheese",
+          "description": "Classic buttery croissant filled with melted cheese and baked until perfectly golden and savory",
+          "price": 5500,
+          "nutrition": {
+            "energy": "340 kcal",
+            "carbs": "30.0 g",
+            "fat": "22.0 g",
+            "protein": "8.0 g",
+            "sugar": "5.0 g"
+          }
+        },
+        {
+          "id": "danish-pastry-custard-and-cherry",
+          "name": "Danish Pastry (Custard & Cherry)",
+          "description": "Crispy Danish layers filled with smooth custard and bursts of sweet cherry flavor",
+          "price": 6500,
+          "nutrition": {
+            "energy": "445 kcal",
+            "carbs": "48.0 g",
+            "fat": "26.0 g",
+            "protein": "7.0 g",
+            "sugar": "24.0 g"
+          }
+        },
+        {
+          "id": "berliner",
+          "name": "Berliner",
+          "description": "Light and fluffy doughnut filled with sweet, fruity jam and finished with a delicate sugar dusting",
+          "price": 3500,
+          "nutrition": {
+            "energy": "235 kcal",
+            "carbs": "32.0 g",
+            "fat": "10.0 g",
+            "protein": "4.0 g",
+            "sugar": "16.0 g"
+          }
+        },
+        {
+          "id": "custard-swirl",
+          "name": "Custard Swirl",
+          "description": "Golden, flaky pastry swirled with rich, velvety custard for a perfectly indulgent bite",
+          "price": 7000,
+          "nutrition": {
+            "energy": "430 kcal",
+            "carbs": "46.0 g",
+            "fat": "24.0 g",
+            "protein": "7.0 g",
+            "sugar": "22.0 g"
+          }
+        },
+        {
+          "id": "cinnamon-roll",
+          "name": "Cinnamon Roll",
+          "description": "Soft, buttery dough generously rolled with warm cinnamon and baked until irresistibly fragrant",
+          "price": 6500,
+          "nutrition": {
+            "energy": "455 kcal",
+            "carbs": "52.0 g",
+            "fat": "22.0 g",
+            "protein": "6.0 g",
+            "sugar": "34.0 g"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sandwich & Salad",
+      "items": [
+        {
+          "id": "halloumi-sandwich",
+          "name": "Halloumi Sandwich",
+          "description": "Grilled halloumi with fresh lettuce, juicy tomatoes, and a flavorful house sauce in warm bread",
+          "price": 11000
+        },
+        {
+          "id": "caesar-sandwich",
+          "name": "Caesar Sandwich",
+          "description": "Tender grilled chicken, crisp lettuce, Parmesan, and rich Caesar sauce in soft bread",
+          "price": 12000
+        },
+        {
+          "id": "turkey-sandwich",
+          "name": "Turkey Sandwich",
+          "description": "Smoked turkey with fresh lettuce, tomatoes, and a creamy house sauce in fresh bread",
+          "price": 12000
+        },
+        {
+          "id": "caesar-salad",
+          "name": "Caesar Salad",
+          "description": "Crisp romaine lettuce, juicy grilled chicken, Parmesan, crunchy croutons, and classic Caesar dressing",
+          "price": 8500
+        },
+        {
+          "id": "halloumi-salad",
+          "name": "Halloumi Salad",
+          "description": "Fresh greens topped with warm grilled halloumi, tomatoes, and a tasty house dressing",
+          "price": 9000
+        },
+        {
+          "id": "beetroot-salad",
+          "name": "Beetroot Salad",
+          "description": "Tender beetroot, fresh cucumber, crunchy walnuts, and a flavorful dressing",
+          "price": 7000
         }
       ]
     }

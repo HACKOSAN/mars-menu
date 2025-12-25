@@ -196,6 +196,13 @@ export default function App() {
               <div className="mars-circle-btn">Drinks</div>
               <h3 className="card-title">Drinks →</h3>
             </div>
+            <div 
+              onClick={() => setView('food')} 
+              className="mars-card-list"
+            >
+              <div className="mars-circle-btn">Food</div>
+              <h3 className="card-title">Food →</h3>
+            </div>
           </main>
         </div>
       )}
@@ -207,7 +214,28 @@ export default function App() {
           <button onClick={() => setView('hub')} className="back-btn">← Back</button>
           
           <main className="category-grid">
-            {menuData.categories.map(cat => (
+            {menuData.drinks_categories.map(cat => (
+              <div 
+                key={cat.name} 
+                onClick={() => { setActiveCategory(cat); setView('products'); }} 
+                className="category-item"
+              >
+                <div className="mars-circle-btn shadow-lg">MARS</div>
+                <span className="cat-label">{cat.name}</span>
+              </div>
+            ))}
+          </main>
+        </div>
+      )}
+
+      {/* FOOD CATEGORIES VIEW */}
+      {view === 'food' && (
+        <div className="page-container">
+          <h1 className="font-crimson page-title">Food</h1>
+          <button onClick={() => setView('hub')} className="back-btn">← Back</button>
+          
+          <main className="category-grid">
+            {menuData.food_categories.map(cat => (
               <div 
                 key={cat.name} 
                 onClick={() => { setActiveCategory(cat); setView('products'); }} 
@@ -226,7 +254,11 @@ export default function App() {
         <div className="page-container">
           <div className="products-header">
             <h1 className="font-crimson page-title-small">{activeCategory.name}</h1>
-            <button onClick={() => setView('drinks')} className="back-btn">← Categories</button>
+            <button onClick={() => {
+              // Go back to the correct category view
+              const isDrinks = menuData.drinks_categories.some(c => c.name === activeCategory.name);
+              setView(isDrinks ? 'drinks' : 'food');
+            }} className="back-btn">← Categories</button>
           </div>
           
           <main className="products-grid">
