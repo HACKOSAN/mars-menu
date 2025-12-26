@@ -187,7 +187,7 @@ export default function App() {
               <h1 className="font-crimson brand-title">mars</h1>
               <p className="brand-subtitle">Coffee House</p>
             </div>
-            <div className="location-badge">Kirkuk</div>
+            <div className="location-badge">Erbil</div>
           </header>
           
           <main className="hub-main">
