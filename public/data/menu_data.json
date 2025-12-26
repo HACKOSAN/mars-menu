@@ -31,7 +31,7 @@
               "caffeine": "89.1 mg"
             }
           },
-          "image": "/images/drinks/americano.jpg"
+          "image": "/data/images/drinks/americano.webp"
         },
         {
           "id": "espresso",
@@ -46,7 +46,7 @@
             "protein": "0.2 g",
             "caffeine": "44.6 mg"
           },
-          "image": "/images/drinks/espresso.jpg"
+          "image": "/data/images/drinks/espresso.webp"
         },
         {
           "id": "espresso-doppio",
@@ -62,7 +62,7 @@
             "protein": "0.4 g",
             "caffeine": "89.1 mg"
           },
-          "image": "/images/drinks/espresso-doppio.jpg"
+          "image": "/data/images/drinks/espresso_dopio.webp"
         },
         {
           "id": "espresso-con-panna",
@@ -80,7 +80,7 @@
             "salt": "0.03 g",
             "caffeine": "44.6 mg"
           },
-          "image": "/images/drinks/espresso-con-panna.jpg"
+          "image": "/data/images/drinks/con_pana.webp"
         },
         {
           "id": "macchiato",
@@ -98,7 +98,7 @@
             "salt": "0.01 g",
             "caffeine": "44.6 mg"
           },
-          "image": "/images/drinks/macchiato.jpg"
+          "image": "/data/images/drinks/machiato.webp"
         },
         {
           "id": "turkish-coffee",
@@ -143,7 +143,7 @@
               }
             }
           },
-          "image": "/images/drinks/turkish-coffee.jpg"
+          "image": "/data/images/drinks/turkish_coffee.webp"
         },
         {
           "id": "turkish-coffee-double",
@@ -188,9 +188,10 @@
               }
             }
           },
-          "image": "/images/drinks/turkish-coffee-double.jpg"
+          "image": "/data/images/drinks/turkish_coffee.webp"
         }
-      ]
+      ],
+      "image": "/data/images/drinks/espresso.webp"
     },
     {
       "name": "Iced Coffee",
@@ -223,9 +224,10 @@
               "caffeine": "133.6 mg"
             }
           },
-          "image": "/images/drinks/iced-americano.jpg"
+          "image": "/data/images/drinks/ice_americano.webp"
         }
-      ]
+      ],
+      "image": "/data/images/drinks/ice_americano.webp"
     },
     {
       "name": "Brewed Coffee",
@@ -241,7 +243,7 @@
             "protein": "0.2 g",
             "caffeine": "110.0 mg"
           },
-          "image": "/images/drinks/cold-brew.jpg"
+          "image": null
         },
         {
           "id": "drip-coffee",
@@ -265,9 +267,10 @@
               "caffeine": "150.0 mg"
             }
           },
-          "image": "/images/drinks/drip-coffee.jpg"
+          "image": null
         }
-      ]
+      ],
+      "image": null
     },
     {
       "name": "Coffee with Milk",
@@ -506,7 +509,7 @@
               }
             }
           },
-          "image": "/images/drinks/classic-cappuccino.jpg"
+          "image": "/data/images/drinks/cappuccino.webp"
         },
         {
           "id": "cortado",
@@ -524,7 +527,7 @@
             "salt": "0.08 g",
             "caffeine": "115.5 mg"
           },
-          "image": "/images/drinks/cortado.jpg"
+          "image": "/data/images/drinks/cortado.webp"
         },
         {
           "id": "flat-white",
@@ -542,7 +545,7 @@
             "salt": "0.11 g",
             "caffeine": "389.1 mg"
           },
-          "image": "/images/drinks/flat-white.jpg"
+          "image": "/data/images/drinks/flat_white.webp"
         },
         {
           "id": "latte-classic",
@@ -750,7 +753,7 @@
               }
             }
           },
-          "image": "/images/drinks/latte-classic.jpg"
+          "image": "/data/images/drinks/latte.webp"
         },
         {
           "id": "mocha-dark",
@@ -784,7 +787,7 @@
               "caffeine": "381.0 mg"
             }
           },
-          "image": "/images/drinks/mocha-dark.jpg"
+          "image": "/data/images/drinks/mocha_dark.webp"
         },
         {
           "id": "mocha-white",
@@ -818,7 +821,7 @@
               "caffeine": "344.5 mg"
             }
           },
-          "image": "/images/drinks/mocha-white.jpg"
+          "image": "/data/images/drinks/mocha_white.webp"
         },
         {
           "id": "spanish-latte",
@@ -829,9 +832,10 @@
             "M": 7000
           },
           "nutrition": {},
-          "image": "/images/drinks/spanish-latte.jpg"
+          "image": "/data/images/drinks/hot_spanish.webp"
         }
-      ]
+      ],
+      "image": "/data/images/drinks/latte.webp"
     },
     {
       "name": "Cold Coffee with Milk",
@@ -919,6 +923,20 @@
                   "sugar": "12.5 g",
                   "protein": "4.5 g",
                   "salt": "0.12 g",
+                  "caffeine": "65.0 mg"
+                }
+              },
+              "Kinder": {
+                "price": 6000,
+                "nutrition": {
+                  "energy": "106 kcal",
+                  "fat": "3.2 g",
+                  "sat_fat": "2.0 g",
+                  "carbs": "15.8 g",
+                  "sugar": "14.3 g",
+                  "fibre": "0.3 g",
+                  "protein": "4.7 g",
+                  "salt": "0.14 g",
                   "caffeine": "65.0 mg"
                 }
               },
@@ -1072,7 +1090,7 @@
               }
             }
           },
-          "image": "/images/drinks/iced-classic-latte.jpg"
+          "image": "/data/images/drinks/latte.webp"
         },
         {
           "id": "iced-dark-mocha",
@@ -1106,7 +1124,7 @@
               "caffeine": "90.0 mg"
             }
           },
-          "image": "/images/drinks/iced-dark-mocha.jpg"
+          "image": "/data/images/drinks/ice_mocha_dark.webp"
         },
         {
           "id": "iced-spanish-latte",
@@ -1138,7 +1156,7 @@
               "caffeine": "90.0 mg"
             }
           },
-          "image": "/images/drinks/iced-spanish-latte.jpg"
+          "image": "/data/images/drinks/hot_spanish.webp"
         },
         {
           "id": "iced-white-chocolate-mocha",
@@ -1170,9 +1188,10 @@
               "caffeine": "90.0 mg"
             }
           },
-          "image": "/images/drinks/iced-white-chocolate-mocha.jpg"
+          "image": "/data/images/drinks/ice_mocha_white.webp"
         }
-      ]
+      ],
+      "image": "/data/images/drinks/latte.webp"
     },
     {
       "name": "Drinks Without Coffee",
@@ -1182,8 +1201,8 @@
           "name": "Hot Chocolate",
           "description": "A velvety hot chocolate crafted with rich cocoa and perfectly steamed milk, delivering a smooth and comforting chocolate experience",
           "sizes": {
-            "S": 5500,
-            "M": 6500
+            "S": 5000,
+            "M": 6000
           },
           "nutrition": {
             "S": {
@@ -1209,7 +1228,7 @@
               "caffeine": "18.0 mg"
             }
           },
-          "image": "/images/drinks/hot-chocolate.jpg"
+          "image": "/data/images/drinks/hot_choco.webp"
         },
         {
           "id": "hot-coconut-with-strawberry",
@@ -1243,7 +1262,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/hot-coconut-with-strawberry.jpg"
+          "image": "/data/images/drinks/hot_strawberry_and_coconut.webp"
         },
         {
           "id": "hot-lotus",
@@ -1277,7 +1296,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/hot-lotus.jpg"
+          "image": "/data/images/drinks/hot_lotus.webp"
         },
         {
           "id": "hot-pistachio",
@@ -1311,7 +1330,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/hot-pistachio.jpg"
+          "image": "/data/images/drinks/hot_pistachio.webp"
         },
         {
           "id": "hot-pistachio-with-cookies",
@@ -1345,15 +1364,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/hot-pistachio-with-cookies.jpg"
+          "image": "/data/images/drinks/hot_pistachio_and_cookies.webp"
         },
         {
           "id": "karak-chai",
           "name": "Karak Chai",
           "description": "A bold and aromatic chai infused with traditional spices and milk, offering a deep, warming flavor inspired by classic karak tea.",
           "sizes": {
-            "S": 5500,
-            "M": 6500
+            "S": 5000,
+            "M": 6000
           },
           "nutrition": {
             "S": {
@@ -1379,12 +1398,13 @@
               "caffeine": "65.0 mg"
             }
           },
-          "image": "/images/drinks/karak-chai.jpg"
+          "image": "/data/images/drinks/chai_karak.webp"
         }
-      ]
+      ],
+      "image": "/data/images/drinks/hot_strawberry_and_coconut.webp"
     },
     {
-      "name": "Cool Selections",
+      "name": "Refreshers",
       "items": [
         {
           "id": "iced-mango-tea",
@@ -1408,7 +1428,7 @@
               "caffeine": "1.0 mg"
             }
           },
-          "image": "/images/drinks/iced-mango-tea.jpg"
+          "image": null
         },
         {
           "id": "iced-watermelon-tea",
@@ -1432,7 +1452,7 @@
               "caffeine": "1.0 mg"
             }
           },
-          "image": "/images/drinks/iced-watermelon-tea.jpg"
+          "image": null
         },
         {
           "id": "iced-peach-tea",
@@ -1456,7 +1476,7 @@
               "caffeine": "1.0 mg"
             }
           },
-          "image": "/images/drinks/iced-peach-tea.jpg"
+          "image": null
         },
         {
           "id": "lime-breeze",
@@ -1480,7 +1500,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/lime-breeze.jpg"
+          "image": null
         },
         {
           "id": "melon-breeze",
@@ -1504,7 +1524,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/melon-breeze.jpg"
+          "image": null
         },
         {
           "id": "orange-pomegranate-fresh-juice",
@@ -1530,13 +1550,13 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/orange-pomegranate-fresh-juice.jpg"
+          "image": null
         },
         {
           "id": "mexican-red-bull",
           "name": "Mexican Red Bull",
           "description": "An energizing blend with a bold character, combining vibrant flavors for a lively and refreshing kick",
-          "price": 7500,
+          "price": 7000,
           "nutrition": {
             "energy": "143 kcal",
             "carbs": "35.5 g",
@@ -1544,13 +1564,13 @@
             "salt": "0.1 g",
             "caffeine": "120.0 mg"
           },
-          "image": "/images/drinks/mexican-red-bull.jpg"
+          "image": "/data/images/drinks/mexican_redbull.webp"
         },
         {
           "id": "red-bull-breeze",
           "name": "Red Bull Breeze",
           "description": "A light and refreshing take on energy, blended smoothly for a crisp taste with a subtle lift.",
-          "price": 8000,
+          "price": 7500,
           "nutrition": {
             "energy": "141 kcal",
             "carbs": "35.0 g",
@@ -1558,13 +1578,13 @@
             "salt": "0.1 g",
             "caffeine": "120.0 mg"
           },
-          "image": "/images/drinks/red-bull-breeze.jpg"
+          "image": null
         },
         {
           "id": "red-bull-wild",
           "name": "Red Bull Wild",
           "description": "Bold, vibrant, and energizing, delivering an intense flavor profile with a powerful, refreshing edge",
-          "price": 8000,
+          "price": 7500,
           "nutrition": {
             "energy": "148 kcal",
             "carbs": "36.5 g",
@@ -1572,9 +1592,10 @@
             "salt": "0.1 g",
             "caffeine": "120.0 mg"
           },
-          "image": "/images/drinks/red-bull-wild.jpg"
+          "image": null
         }
-      ]
+      ],
+      "image": "/data/images/drinks/mexican_redbull.webp"
     },
     {
       "name": "Milk Shake",
@@ -1584,8 +1605,8 @@
           "name": "Blueberry Milkshake",
           "description": "A smooth and refreshing milkshake blended with ripe blueberries, delivering a balanced sweetness and a clean, fruity finish",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1611,15 +1632,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/blueberry-milkshake.jpg"
+          "image": null
         },
         {
           "id": "dragon-milkshake",
           "name": "Dragon Milkshake",
           "description": "A vibrant and silky milkshake infused with exotic dragon fruit, offering a light, refreshing taste with a naturally smooth texture",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1645,15 +1666,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/dragon-milkshake.jpg"
+          "image": null
         },
         {
           "id": "lotus-milkshake",
           "name": "Lotus Milkshake",
           "description": "A rich and indulgent milkshake crafted with lotus spread, featuring warm caramelized biscuit notes and a creamy, satisfying body",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1678,15 +1699,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/lotus-milkshake.jpg"
+          "image": "/data/images/drinks/lotus_mlikshake.webp"
         },
         {
           "id": "nutella-milkshake",
           "name": "Nutella Milkshake",
           "description": "A decadent blend of creamy milk and Nutella, creating a deep chocolate-hazelnut flavor with a luxuriously smooth mouthfeel",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1712,15 +1733,15 @@
               "caffeine": "6.0 mg"
             }
           },
-          "image": "/images/drinks/nutella-milkshake.jpg"
+          "image": "/data/images/drinks/nutella_milkshake.webp"
         },
         {
           "id": "oreo-milkshake",
           "name": "Oreo Milkshake",
           "description": "A classic milkshake mixed with crushed Oreo cookies, combining creamy vanilla tones with a subtle chocolate crunch",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1746,15 +1767,15 @@
               "caffeine": "4.0 mg"
             }
           },
-          "image": "/images/drinks/oreo-milkshake.jpg"
+          "image": "/data/images/drinks/oreo_milkshake.webp"
         },
         {
           "id": "pistachio-milkshake",
           "name": "Pistachio Milkshake",
           "description": "A refined milkshake infused with pistachio flavor, delivering a nutty richness and a soft, elegant finish",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1780,15 +1801,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/pistachio-milkshake.jpg"
+          "image": "/data/images/drinks/pistachio_milkshake.webp"
         },
         {
           "id": "rashi-milkshake",
           "name": "Rashi Milkshake",
           "description": "A playful and creamy milkshake inspired by rashi candy flavors, offering a sweet, nostalgic taste with a smooth blend",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1814,15 +1835,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/rashi-milkshake.jpg"
+          "image": "/data/images/drinks/rashi_mlikshake.webp"
         },
         {
           "id": "spanish-milkshake",
           "name": "Spanish Milkshake",
           "description": "A bold and creamy milkshake inspired by Spanish-style flavors, featuring a deep caramel tone and a rich, comforting texture",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1848,15 +1869,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/spanish-milkshake.jpg"
+          "image": "/data/images/drinks/spanish_milkshake.webp"
         },
         {
           "id": "strawberry-milkshake",
           "name": "Strawberry Milkshake",
           "description": "A fresh and creamy milkshake blended with strawberry flavor, delivering a light sweetness and a smooth, refreshing sip",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1882,15 +1903,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/strawberry-milkshake.jpg"
+          "image": "/data/images/drinks/strawberry_milkshake.webp"
         },
         {
           "id": "mocha-milkshake",
           "name": "Mocha Milkshake",
           "description": "A smooth fusion of chocolate depth and subtle coffee notes, finished with a refined, creamy texture.",
           "sizes": {
-            "S": 7500,
-            "M": 8500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
@@ -1916,9 +1937,10 @@
               "caffeine": "18.0 mg"
             }
           },
-          "image": "/images/drinks/mocha-milkshake.jpg"
+          "image": "/data/images/drinks/mocha_milkshake.webp"
         }
-      ]
+      ],
+      "image": "/data/images/drinks/pistachio_milkshake.webp"
     },
     {
       "name": "Mojito",
@@ -1947,7 +1969,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/apollo-mojito.jpg"
+          "image": "/data/images/drinks/mojito_apolo.webp"
         },
         {
           "id": "blue-mojito",
@@ -1973,15 +1995,15 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/blue-mojito.jpg"
+          "image": "/data/images/drinks/mojito_blue.webp"
         },
         {
           "id": "pomegranate-mojito",
           "name": "Pomegranate Mojito",
           "description": "Bold pomegranate character layered with zesty lime, served light and refreshing",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 6500,
+            "M": 7500
           },
           "nutrition": {
             "S": {
@@ -1999,7 +2021,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/pomegranate-mojito.jpg"
+          "image": "/data/images/drinks/pomergrante_mojito.webp"
         },
         {
           "id": "strawberry-mojito",
@@ -2025,7 +2047,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/strawberry-mojito.jpg"
+          "image": null
         },
         {
           "id": "watermelon-mojito",
@@ -2051,7 +2073,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/watermelon-mojito.jpg"
+          "image": null
         },
         {
           "id": "wild-berry-mojito",
@@ -2077,9 +2099,10 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": "/images/drinks/wild-berry-mojito.jpg"
+          "image": "/data/images/drinks/mojito_wildberry.webp"
         }
-      ]
+      ],
+      "image": "/data/images/drinks/mojito_blue.webp"
     },
     {
       "name": "Smoothie",
@@ -2097,7 +2120,7 @@
             "salt": "0.02 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/blueberry-smoothie.jpg"
+          "image": null
         },
         {
           "id": "hawaii-smoothie",
@@ -2114,7 +2137,7 @@
             "salt": "0.11 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/hawaii-smoothie.jpg"
+          "image": null
         },
         {
           "id": "mango-with-orange-smoothie",
@@ -2129,7 +2152,7 @@
             "salt": "0.02 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/mango-with-orange-smoothie.jpg"
+          "image": null
         },
         {
           "id": "passion-fruit-smoothie",
@@ -2144,7 +2167,7 @@
             "salt": "0.02 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/passion-fruit-smoothie.jpg"
+          "image": null
         },
         {
           "id": "pomegranate-smoothie",
@@ -2159,7 +2182,7 @@
             "salt": "0.01 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/pomegranate-smoothie.jpg"
+          "image": null
         },
         {
           "id": "smoked-smoothie",
@@ -2176,7 +2199,7 @@
             "salt": "0.12 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/smoked-smoothie.jpg"
+          "image": null
         },
         {
           "id": "strawberry-smoothie",
@@ -2191,7 +2214,7 @@
             "salt": "0.02 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/strawberry-smoothie.jpg"
+          "image": null
         },
         {
           "id": "strawberry-with-orange-smoothie",
@@ -2206,9 +2229,10 @@
             "salt": "0.02 g",
             "caffeine": "0.0 mg"
           },
-          "image": "/images/drinks/strawberry-with-orange-smoothie.jpg"
+          "image": null
         }
-      ]
+      ],
+      "image": "/data/images/drinks/mocha_milkshake.webp"
     },
     {
       "name": "Extra Cream",
@@ -2218,30 +2242,31 @@
           "name": "Cold Foam",
           "description": "A light, creamy foam added on top of cold drinks for a smooth texture and subtle sweetness",
           "price": 1000,
-          "image": "/images/drinks/cold-foam.jpg"
+          "image": null
         },
         {
           "id": "milk-splash",
           "name": "Milk Splash",
           "description": "A small amount of milk added to coffee to lightly soften the flavor",
           "price": 1000,
-          "image": "/images/drinks/milk-splash.jpg"
+          "image": null
         },
         {
           "id": "skimmed-milk",
           "name": "Skimmed Milk",
           "description": "Pure milk taste, with no fat",
           "price": 0,
-          "image": "/images/drinks/skimmed-milk.jpg"
+          "image": null
         },
         {
           "id": "whipped-cream",
           "name": "Whipped Cream",
           "description": "Lightly sweetened cream whipped to a soft, fluffy texture and as a topping",
           "price": 2000,
-          "image": "/images/drinks/whipped-cream.jpg"
+          "image": null
         }
-      ]
+      ],
+      "image": null
     },
     {
       "name": "Extra Flavors",
@@ -2251,107 +2276,108 @@
           "name": "Add Apollo",
           "description": "",
           "price": 1500,
-          "image": "/images/drinks/add-apollo.jpg"
+          "image": null
         },
         {
           "id": "add-apples",
           "name": "Add Apples",
           "description": "",
           "price": 1500,
-          "image": "/images/drinks/add-apples.jpg"
+          "image": null
         },
         {
           "id": "add-blue",
           "name": "Add Blue",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-blue.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-brownie",
           "name": "Add Brownie",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-brownie.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-caramel",
           "name": "Add Caramel",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-caramel.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-cookies",
           "name": "Add Cookies",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-cookies.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-hazelnut",
           "name": "Add Hazelnut",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-hazelnut.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-mango",
           "name": "Add Mango",
           "description": "",
           "price": 1500,
-          "image": "/images/drinks/add-mango.jpg"
+          "image": null
         },
         {
           "id": "add-pomegranate",
           "name": "Add Pomegranate",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-pomegranate.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-rose",
           "name": "Add Rose",
           "description": "",
           "price": 1500,
-          "image": "/images/drinks/add-rose.jpg"
+          "image": null
         },
         {
           "id": "add-strawberry",
           "name": "Add Strawberry",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-strawberry.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-vanilla",
           "name": "Add Vanilla",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-vanilla.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-watermelon",
           "name": "Add Watermelon",
           "description": "",
-          "price": 1500,
-          "image": "/images/drinks/add-watermelon.jpg"
+          "price": 1000,
+          "image": null
         },
         {
           "id": "add-wild-berry",
           "name": "Add Wild Berry",
           "description": "",
           "price": 1500,
-          "image": "/images/drinks/add-wild-berry.jpg"
+          "image": null
         },
         {
           "id": "espresso-shot",
           "name": "Espresso Shot",
           "description": "",
           "price": 1500,
-          "image": "/images/drinks/espresso-shot.jpg"
+          "image": "/data/images/drinks/espresso.webp"
         }
-      ]
+      ],
+      "image": null
     }
   ],
   "food_categories": [
@@ -2370,7 +2396,7 @@
             "protein": "3.0 g",
             "sugar": "22.0 g"
           },
-          "image": "/images/food/apple-pie.jpg"
+          "image": null
         },
         {
           "id": "banana-bread",
@@ -2384,7 +2410,7 @@
             "protein": "4.0 g",
             "sugar": "18.0 g"
           },
-          "image": "/images/food/banana-bread.jpg"
+          "image": "/data/images/food/banana_bread.webp"
         },
         {
           "id": "brownies-cup",
@@ -2398,7 +2424,7 @@
             "protein": "5.0 g",
             "sugar": "30.0 g"
           },
-          "image": "/images/food/brownies-cup.jpg"
+          "image": "/data/images/food/brownies_cup.webp"
         },
         {
           "id": "cheesecake-lotus",
@@ -2412,7 +2438,7 @@
             "protein": "7.0 g",
             "sugar": "30.0 g"
           },
-          "image": "/images/food/cheesecake-lotus.jpg"
+          "image": null
         },
         {
           "id": "cheesecake-strawberry",
@@ -2426,7 +2452,7 @@
             "protein": "7.0 g",
             "sugar": "26.0 g"
           },
-          "image": "/images/food/cheesecake-strawberry.jpg"
+          "image": null
         },
         {
           "id": "cheesecake-lemon",
@@ -2440,7 +2466,7 @@
             "protein": "7.0 g",
             "sugar": "24.0 g"
           },
-          "image": "/images/food/cheesecake-lemon.jpg"
+          "image": null
         },
         {
           "id": "cheesecake-pistachio",
@@ -2454,7 +2480,7 @@
             "protein": "8.0 g",
             "sugar": "27.0 g"
           },
-          "image": "/images/food/cheesecake-pistachio.jpg"
+          "image": "/data/images/food/pistachio_cheesecake.webp"
         },
         {
           "id": "cheesecake-nutella",
@@ -2468,7 +2494,7 @@
             "protein": "8.0 g",
             "sugar": "32.0 g"
           },
-          "image": "/images/food/cheesecake-nutella.jpg"
+          "image": null
         },
         {
           "id": "cookies-dark",
@@ -2482,7 +2508,7 @@
             "protein": "4.0 g",
             "sugar": "20.0 g"
           },
-          "image": "/images/food/cookies-dark.jpg"
+          "image": "/data/images/food/cookies_dark.webp"
         },
         {
           "id": "cookies-brown",
@@ -2496,7 +2522,7 @@
             "protein": "4.0 g",
             "sugar": "18.0 g"
           },
-          "image": "/images/food/cookies-brown.jpg"
+          "image": null
         },
         {
           "id": "cookies-red-velvet",
@@ -2510,7 +2536,7 @@
             "protein": "4.0 g",
             "sugar": "21.0 g"
           },
-          "image": "/images/food/cookies-red-velvet.jpg"
+          "image": "/data/images/food/redvelvet_cookies.webp"
         },
         {
           "id": "cookies-orange",
@@ -2524,7 +2550,7 @@
             "protein": "3.0 g",
             "sugar": "17.0 g"
           },
-          "image": "/images/food/cookies-orange.jpg"
+          "image": "/data/images/food/orange_cookies.webp"
         },
         {
           "id": "cookies-new-york",
@@ -2538,7 +2564,7 @@
             "protein": "5.0 g",
             "sugar": "25.0 g"
           },
-          "image": "/images/food/cookies-new-york.jpg"
+          "image": "/data/images/food/NY_cookies.webp"
         },
         {
           "id": "crunch",
@@ -2552,7 +2578,7 @@
             "protein": "2.0 g",
             "sugar": "8.0 g"
           },
-          "image": "/images/food/crunch.jpg"
+          "image": null
         },
         {
           "id": "tiramisu",
@@ -2566,7 +2592,7 @@
             "protein": "6.0 g",
             "sugar": "25.0 g"
           },
-          "image": "/images/food/tiramisu.jpg"
+          "image": null
         },
         {
           "id": "croissant-butter",
@@ -2580,7 +2606,7 @@
             "protein": "6.0 g",
             "sugar": "6.0 g"
           },
-          "image": "/images/food/croissant-butter.jpg"
+          "image": "/data/images/food/butter_croissant.webp"
         },
         {
           "id": "croissant-nutella",
@@ -2594,7 +2620,7 @@
             "protein": "7.0 g",
             "sugar": "22.0 g"
           },
-          "image": "/images/food/croissant-nutella.jpg"
+          "image": "/data/images/food/crossiant_nutella.webp"
         },
         {
           "id": "croissant-pistachio",
@@ -2608,7 +2634,7 @@
             "protein": "8.0 g",
             "sugar": "20.0 g"
           },
-          "image": "/images/food/croissant-pistachio.jpg"
+          "image": null
         },
         {
           "id": "croissant-cheese",
@@ -2622,7 +2648,7 @@
             "protein": "8.0 g",
             "sugar": "5.0 g"
           },
-          "image": "/images/food/croissant-cheese.jpg"
+          "image": "/data/images/food/cheese_crossiant.webp"
         },
         {
           "id": "danish-pastry-custard-and-cherry",
@@ -2636,7 +2662,7 @@
             "protein": "7.0 g",
             "sugar": "24.0 g"
           },
-          "image": "/images/food/danish-pastry-custard-and-cherry.jpg"
+          "image": "/data/images/food/danish.webp"
         },
         {
           "id": "berliner",
@@ -2650,7 +2676,7 @@
             "protein": "4.0 g",
             "sugar": "16.0 g"
           },
-          "image": "/images/food/berliner.jpg"
+          "image": "/data/images/food/beliner.webp"
         },
         {
           "id": "custard-swirl",
@@ -2664,7 +2690,7 @@
             "protein": "7.0 g",
             "sugar": "22.0 g"
           },
-          "image": "/images/food/custard-swirl.jpg"
+          "image": "/data/images/food/custard_swirl.webp"
         },
         {
           "id": "cinnamon-roll",
@@ -2678,9 +2704,10 @@
             "protein": "6.0 g",
             "sugar": "34.0 g"
           },
-          "image": "/images/food/cinnamon-roll.jpg"
+          "image": "/data/images/food/cinnamon_roll.webp"
         }
-      ]
+      ],
+      "image": "/data/images/food/cheese_crossiant.webp"
     },
     {
       "name": "Sandwich & Salad",
@@ -2700,7 +2727,7 @@
             "protein": "26.0 g",
             "salt": "1.8 g"
           },
-          "image": "/images/food/halloumi-sandwich.jpg"
+          "image": null
         },
         {
           "id": "caesar-sandwich",
@@ -2717,7 +2744,7 @@
             "protein": "46.0 g",
             "salt": "1.9 g"
           },
-          "image": "/images/food/caesar-sandwich.jpg"
+          "image": null
         },
         {
           "id": "turkey-sandwich",
@@ -2734,7 +2761,7 @@
             "protein": "42.0 g",
             "salt": "1.7 g"
           },
-          "image": "/images/food/turkey-sandwich.jpg"
+          "image": null
         },
         {
           "id": "caesar-salad",
@@ -2751,7 +2778,7 @@
             "protein": "46.0 g",
             "salt": "1.6 g"
           },
-          "image": "/images/food/caesar-salad.jpg"
+          "image": null
         },
         {
           "id": "halloumi-salad",
@@ -2768,7 +2795,7 @@
             "protein": "25.0 g",
             "salt": "1.8 g"
           },
-          "image": "/images/food/halloumi-salad.jpg"
+          "image": null
         },
         {
           "id": "beetroot-salad",
@@ -2785,9 +2812,12 @@
             "protein": "10.0 g",
             "salt": "0.9 g"
           },
-          "image": "/images/food/beetroot-salad.jpg"
+          "image": null
         }
-      ]
+      ],
+      "image": null
     }
-  ]
+  ],
+  "main_drinks_image": "/data/images/drinks/main_drinks.webp",
+  "main_food_image": "/data/images/food/main_food.webp"
 }

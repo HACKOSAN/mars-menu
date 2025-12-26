@@ -68,7 +68,6 @@ const ProductModal = ({ product, onClose }) => {
         <button onClick={onClose} className="close-btn">✕</button>
         
         <div className="modal-content">
-          {/* PRODUCT IMAGE */}
           {product.image ? (
             <img 
               src={product.image} 
@@ -177,6 +176,26 @@ export default function App() {
     );
   }
 
+  const ImageOrPlaceholder = ({ src, alt, className }) => {
+    if (!src) {
+      return <div className="mars-circle-btn shadow-lg">MARS</div>;
+    }
+    return (
+      <div className="product-image-container">
+        <img 
+          src={src} 
+          alt={alt} 
+          className="product-image"
+          onError={(e) => {
+            e.target.style.display = 'none';
+            e.target.parentElement.classList.add('image-fallback');
+          }}
+        />
+        <span className="image-fallback-text">MARS</span>
+      </div>
+    );
+  };
+
   return (
     <div className="app-container">
       {/* HUB VIEW */}
@@ -196,14 +215,44 @@ export default function App() {
               onClick={() => setView('drinks')} 
               className="mars-card-list"
             >
-              <div className="mars-circle-btn">Drinks</div>
+              {menuData.main_drinks_image ? (
+                <div className="product-image-container">
+                  <img 
+                    src={menuData.main_drinks_image} 
+                    alt="Drinks" 
+                    className="product-image"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.parentElement.classList.add('image-fallback');
+                    }}
+                  />
+                  <span className="image-fallback-text">MARS</span>
+                </div>
+              ) : (
+                <div className="mars-circle-btn">Drinks</div>
+              )}
               <h3 className="card-title">Drinks →</h3>
             </div>
             <div 
               onClick={() => setView('food')} 
               className="mars-card-list"
             >
-              <div className="mars-circle-btn">Food</div>
+              {menuData.main_food_image ? (
+                <div className="product-image-container">
+                  <img 
+                    src={menuData.main_food_image} 
+                    alt="Food" 
+                    className="product-image"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.parentElement.classList.add('image-fallback');
+                    }}
+                  />
+                  <span className="image-fallback-text">MARS</span>
+                </div>
+              ) : (
+                <div className="mars-circle-btn">Food</div>
+              )}
               <h3 className="card-title">Food →</h3>
             </div>
           </main>
@@ -223,7 +272,7 @@ export default function App() {
                 onClick={() => { setActiveCategory(cat); setView('products'); }} 
                 className="category-item"
               >
-                <div className="mars-circle-btn shadow-lg">MARS</div>
+                <ImageOrPlaceholder src={cat.image} alt={cat.name} />
                 <span className="cat-label">{cat.name}</span>
               </div>
             ))}
@@ -244,7 +293,7 @@ export default function App() {
                 onClick={() => { setActiveCategory(cat); setView('products'); }} 
                 className="category-item"
               >
-                <div className="mars-circle-btn shadow-lg">MARS</div>
+                <ImageOrPlaceholder src={cat.image} alt={cat.name} />
                 <span className="cat-label">{cat.name}</span>
               </div>
             ))}
@@ -270,22 +319,7 @@ export default function App() {
                 onClick={() => setSelectedProd(p)} 
                 className="product-item"
               >
-                {p.image ? (
-                  <div className="product-image-container">
-                    <img 
-                      src={p.image} 
-                      alt={p.name} 
-                      className="product-image"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.parentElement.classList.add('image-fallback');
-                      }}
-                    />
-                    <span className="image-fallback-text">MARS</span>
-                  </div>
-                ) : (
-                  <div className="mars-circle-btn shadow-md">MARS</div>
-                )}
+                <ImageOrPlaceholder src={p.image} alt={p.name} />
                 <span className="cat-label">{p.name}</span>
               </div>
             ))}
