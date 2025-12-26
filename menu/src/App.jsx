@@ -159,7 +159,7 @@ export default function App() {
   const [selectedProd, setSelectedProd] = useState(null);
 
   useEffect(() => {
-    fetch('/menu/data/menu_data.json')
+    fetch('/data/menu_data.json')
       .then(res => res.json())
       .then(data => setMenuData(data))
       .catch(err => console.error("Error loading menu data:", err));

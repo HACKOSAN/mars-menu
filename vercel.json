@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/menu", "destination": "/", "permanent": true },
+    { "source": "/menu/:path*", "destination": "/:path*", "permanent": true }
+  ]
+}
