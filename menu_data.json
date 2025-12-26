@@ -1090,7 +1090,7 @@
               }
             }
           },
-          "image": "/data/images/drinks/latte.webp"
+          "image": "/data/images/drinks/ice_latte.webp"
         },
         {
           "id": "iced-dark-mocha",
@@ -1191,7 +1191,7 @@
           "image": "/data/images/drinks/ice_mocha_white.webp"
         }
       ],
-      "image": "/data/images/drinks/latte.webp"
+      "image": "/data/images/drinks/ice_latte.webp"
     },
     {
       "name": "Drinks Without Coffee",
@@ -1578,7 +1578,7 @@
             "salt": "0.1 g",
             "caffeine": "120.0 mg"
           },
-          "image": null
+          "image": "/data/images/drinks/mexican_redbull.webp"
         },
         {
           "id": "red-bull-wild",
@@ -1592,7 +1592,7 @@
             "salt": "0.1 g",
             "caffeine": "120.0 mg"
           },
-          "image": null
+          "image": "/data/images/drinks/mexican_redbull.webp"
         }
       ],
       "image": "/data/images/drinks/mexican_redbull.webp"
@@ -1666,7 +1666,7 @@
               "caffeine": "0.0 mg"
             }
           },
-          "image": null
+          "image": "/data/images/drinks/dragon_milkshake.webp"
         },
         {
           "id": "lotus-milkshake",
@@ -2137,7 +2137,7 @@
             "salt": "0.11 g",
             "caffeine": "0.0 mg"
           },
-          "image": null
+          "image": "/data/images/drinks/hawai_smoothie.webp"
         },
         {
           "id": "mango-with-orange-smoothie",
@@ -2167,7 +2167,7 @@
             "salt": "0.02 g",
             "caffeine": "0.0 mg"
           },
-          "image": null
+          "image": "/data/images/drinks/passionfruit_smoothie.webp"
         },
         {
           "id": "pomegranate-smoothie",
@@ -2182,7 +2182,7 @@
             "salt": "0.01 g",
             "caffeine": "0.0 mg"
           },
-          "image": null
+          "image": "/data/images/drinks/pomergrante_smoothie.webp"
         },
         {
           "id": "smoked-smoothie",
@@ -2199,7 +2199,7 @@
             "salt": "0.12 g",
             "caffeine": "0.0 mg"
           },
-          "image": null
+          "image": "/data/images/drinks/smoked_smoothie.webp"
         },
         {
           "id": "strawberry-smoothie",
@@ -2214,7 +2214,7 @@
             "salt": "0.02 g",
             "caffeine": "0.0 mg"
           },
-          "image": null
+          "image": "/data/images/drinks/strawberry_smoothie.webp"
         },
         {
           "id": "strawberry-with-orange-smoothie",
@@ -2232,7 +2232,7 @@
           "image": null
         }
       ],
-      "image": "/data/images/drinks/mocha_milkshake.webp"
+      "image": "/data/images/drinks/smoked_smoothie.webp"
     },
     {
       "name": "Extra Cream",
@@ -2452,7 +2452,7 @@
             "protein": "7.0 g",
             "sugar": "26.0 g"
           },
-          "image": null
+          "image": "/data/images/food/strawberry_cheesecake.webp"
         },
         {
           "id": "cheesecake-lemon",
@@ -2466,7 +2466,7 @@
             "protein": "7.0 g",
             "sugar": "24.0 g"
           },
-          "image": null
+          "image": "/data/images/food/lemon_cheesecake.webp"
         },
         {
           "id": "cheesecake-pistachio",
@@ -2494,7 +2494,7 @@
             "protein": "8.0 g",
             "sugar": "32.0 g"
           },
-          "image": null
+          "image": "/data/images/food/nutella_cheesecake.webp"
         },
         {
           "id": "cookies-dark",
@@ -2592,7 +2592,7 @@
             "protein": "6.0 g",
             "sugar": "25.0 g"
           },
-          "image": null
+          "image": "/data/images/food/terimasu.webp"
         },
         {
           "id": "croissant-butter",
