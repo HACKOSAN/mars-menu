@@ -8,7 +8,7 @@ export default function HomeHub({ onNavigate }) {
           <h1 className="font-crimson text-6xl lowercase tracking-tighter leading-none">mars</h1>
           <p className="text-[10px] font-black uppercase tracking-[0.3em] opacity-30 mt-2 ml-1">Coffee House</p>
         </div>
-        <div className="border-2 border-[#203467] text-[#203467] text-[9px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest"><Erbil></Erbil></div>
+        <div className="border-2 border-[#203467] text-[#203467] text-[9px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest">Erbil</div>
       </header>
       <main className="max-w-xl mx-auto">
         <h2 className="text-4xl font-black mb-10 tracking-tight">Menu</h2>
