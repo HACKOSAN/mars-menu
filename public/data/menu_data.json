@@ -228,7 +228,7 @@
       ]
     },
     {
-      "name": "Specialty Coffee",
+      "name": "Brewed Coffee",
       "items": [
         {
           "id": "cold-brew",
@@ -1384,7 +1384,7 @@
       ]
     },
     {
-      "name": "Refreshers",
+      "name": "Cool Selections",
       "items": [
         {
           "id": "iced-mango-tea",
@@ -1536,7 +1536,7 @@
           "id": "mexican-red-bull",
           "name": "Mexican Red Bull",
           "description": "An energizing blend with a bold character, combining vibrant flavors for a lively and refreshing kick",
-          "price": 7000,
+          "price": 7500,
           "nutrition": {
             "energy": "143 kcal",
             "carbs": "35.5 g",
@@ -1550,7 +1550,7 @@
           "id": "red-bull-breeze",
           "name": "Red Bull Breeze",
           "description": "A light and refreshing take on energy, blended smoothly for a crisp taste with a subtle lift.",
-          "price": 7500,
+          "price": 8000,
           "nutrition": {
             "energy": "141 kcal",
             "carbs": "35.0 g",
@@ -1564,7 +1564,7 @@
           "id": "red-bull-wild",
           "name": "Red Bull Wild",
           "description": "Bold, vibrant, and energizing, delivering an intense flavor profile with a powerful, refreshing edge",
-          "price": 7500,
+          "price": 8000,
           "nutrition": {
             "energy": "148 kcal",
             "carbs": "36.5 g",
@@ -1584,8 +1584,8 @@
           "name": "Blueberry Milkshake",
           "description": "A smooth and refreshing milkshake blended with ripe blueberries, delivering a balanced sweetness and a clean, fruity finish",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1618,8 +1618,8 @@
           "name": "Dragon Milkshake",
           "description": "A vibrant and silky milkshake infused with exotic dragon fruit, offering a light, refreshing taste with a naturally smooth texture",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1652,8 +1652,8 @@
           "name": "Lotus Milkshake",
           "description": "A rich and indulgent milkshake crafted with lotus spread, featuring warm caramelized biscuit notes and a creamy, satisfying body",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1685,8 +1685,8 @@
           "name": "Nutella Milkshake",
           "description": "A decadent blend of creamy milk and Nutella, creating a deep chocolate-hazelnut flavor with a luxuriously smooth mouthfeel",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1719,8 +1719,8 @@
           "name": "Oreo Milkshake",
           "description": "A classic milkshake mixed with crushed Oreo cookies, combining creamy vanilla tones with a subtle chocolate crunch",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1753,8 +1753,8 @@
           "name": "Pistachio Milkshake",
           "description": "A refined milkshake infused with pistachio flavor, delivering a nutty richness and a soft, elegant finish",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1787,8 +1787,8 @@
           "name": "Rashi Milkshake",
           "description": "A playful and creamy milkshake inspired by rashi candy flavors, offering a sweet, nostalgic taste with a smooth blend",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1821,8 +1821,8 @@
           "name": "Spanish Milkshake",
           "description": "A bold and creamy milkshake inspired by Spanish-style flavors, featuring a deep caramel tone and a rich, comforting texture",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1855,8 +1855,8 @@
           "name": "Strawberry Milkshake",
           "description": "A fresh and creamy milkshake blended with strawberry flavor, delivering a light sweetness and a smooth, refreshing sip",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1889,8 +1889,8 @@
           "name": "Mocha Milkshake",
           "description": "A smooth fusion of chocolate depth and subtle coffee notes, finished with a refined, creamy texture.",
           "sizes": {
-            "S": 7000,
-            "M": 8000
+            "S": 7500,
+            "M": 8500
           },
           "nutrition": {
             "S": {
@@ -1980,8 +1980,8 @@
           "name": "Pomegranate Mojito",
           "description": "Bold pomegranate character layered with zesty lime, served light and refreshing",
           "sizes": {
-            "S": 6500,
-            "M": 7500
+            "S": 7000,
+            "M": 8000
           },
           "nutrition": {
             "S": {
