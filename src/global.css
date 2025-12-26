@@ -31,7 +31,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
-/* ima kms istg*/
+
 @media (min-width: 768px) {
   .page-container {
     padding: 3rem;
@@ -522,6 +522,52 @@ body {
 .done-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(32, 52, 103, 0.4);
+}
+
+/* PRODUCT IMAGES */
+.product-image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--mars-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-image-container .image-fallback-text {
+  display: none;
+  color: white;
+  font-weight: 900;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+}
+
+.product-image-container.image-fallback .image-fallback-text {
+  display: block;
+}
+
+.product-image-container.image-fallback .product-image {
+  display: none;
+}
+
+/* MODAL PRODUCT IMAGE */
+.modal-product-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(32, 52, 103, 0.3);
 }
 
 /* UTILITY SHADOWS */

@@ -6,17 +6,14 @@ const ProductModal = ({ product, onClose }) => {
   const hasSizes = !!product.sizes;
   const hasVariants = !!product.variants;
 
-  // Determine available keys (sizes or variants)
   const keys = hasMatrix 
     ? Object.keys(product.matrix) 
     : (hasSizes ? Object.keys(product.sizes) : (hasVariants ? Object.keys(product.variants) : null));
   
-  // Check if this is a single-size item (like Turkish Coffee with "One")
   const isSingleSize = hasMatrix && keys && keys.length === 1 && keys[0] === 'One';
   
   const [selectedKey, setSelectedKey] = useState(keys ? keys[0] : 'Default');
 
-  // Get available flavors for the selected size (matrix items only)
   const getFlavorKeys = () => {
     if (hasMatrix && product.matrix[selectedKey]) {
       return Object.keys(product.matrix[selectedKey]);
@@ -27,7 +24,6 @@ const ProductModal = ({ product, onClose }) => {
   const flavorKeys = getFlavorKeys();
   const [selectedFlavor, setSelectedFlavor] = useState(flavorKeys ? flavorKeys[0] : 'Standard');
 
-  // Sync flavor when size changes
   useEffect(() => {
     if (hasMatrix && product.matrix[selectedKey]) {
       const availableFlavors = Object.keys(product.matrix[selectedKey]);
@@ -37,7 +33,6 @@ const ProductModal = ({ product, onClose }) => {
     }
   }, [selectedKey, hasMatrix, product.matrix, selectedFlavor]);
 
-  // Calculate price and nutrition based on selection
   let price = product.price || 0;
   let nutrition = {};
 
@@ -63,7 +58,6 @@ const ProductModal = ({ product, onClose }) => {
     nutrition = product.nutrition || {};
   }
 
-  // Get current flavor options for display
   const currentFlavorKeys = hasMatrix && product.matrix[selectedKey] 
     ? Object.keys(product.matrix[selectedKey]) 
     : null;
@@ -74,7 +68,20 @@ const ProductModal = ({ product, onClose }) => {
         <button onClick={onClose} className="close-btn">✕</button>
         
         <div className="modal-content">
-          <div className="mars-logo-small">MARS</div>
+          {/* PRODUCT IMAGE */}
+          {product.image ? (
+            <img 
+              src={product.image} 
+              alt={product.name} 
+              className="modal-product-image"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+            />
+          ) : null}
+          <div className="mars-logo-small" style={product.image ? {display: 'none'} : {}}>MARS</div>
+          
           <h2 className="product-title">{product.name}</h2>
           <p className="product-subtitle">Mars Coffee House</p>
           
@@ -83,7 +90,6 @@ const ProductModal = ({ product, onClose }) => {
           )}
           
           <div className="selection-grid-container">
-            {/* SIZE SELECTOR - Hide if single size "One" */}
             {keys && keys.length > 0 && !isSingleSize && (
               <div className="selection-column">
                 <p className="selection-label">Select Size</p>
@@ -101,7 +107,6 @@ const ProductModal = ({ product, onClose }) => {
               </div>
             )}
 
-            {/* FLAVOR SELECTOR */}
             <div className="selection-column">
               <p className="selection-label">{isSingleSize ? 'Select Type' : 'Select Flavor'}</p>
               {currentFlavorKeys && currentFlavorKeys.length > 1 ? (
@@ -122,7 +127,6 @@ const ProductModal = ({ product, onClose }) => {
             </div>
           </div>
 
-          {/* NUTRITION TABLE */}
           <div className="nutrition-card">
             <h4 className="nutrition-title">Nutrition Facts</h4>
             <div className="nutrition-list">
@@ -139,7 +143,6 @@ const ProductModal = ({ product, onClose }) => {
             </div>
           </div>
 
-          {/* PRICE AND DONE BUTTON */}
           <div className="modal-footer">
             <div className="price-display">
               {price?.toLocaleString()} <span className="price-currency">IQD</span>
@@ -255,7 +258,6 @@ export default function App() {
           <div className="products-header">
             <h1 className="font-crimson page-title-small">{activeCategory.name}</h1>
             <button onClick={() => {
-              // Go back to the correct category view
               const isDrinks = menuData.drinks_categories.some(c => c.name === activeCategory.name);
               setView(isDrinks ? 'drinks' : 'food');
             }} className="back-btn">← Categories</button>
@@ -268,7 +270,22 @@ export default function App() {
                 onClick={() => setSelectedProd(p)} 
                 className="product-item"
               >
-                <div className="mars-circle-btn shadow-md">MARS</div>
+                {p.image ? (
+                  <div className="product-image-container">
+                    <img 
+                      src={p.image} 
+                      alt={p.name} 
+                      className="product-image"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.parentElement.classList.add('image-fallback');
+                      }}
+                    />
+                    <span className="image-fallback-text">MARS</span>
+                  </div>
+                ) : (
+                  <div className="mars-circle-btn shadow-md">MARS</div>
+                )}
                 <span className="cat-label">{p.name}</span>
               </div>
             ))}
